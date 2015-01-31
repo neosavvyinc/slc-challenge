@@ -77,6 +77,16 @@ angular.module('slcChallengeApp')
         controller: 'AccountCtrl'
       })
 
+      .whenAuthenticated('/beers', {
+        templateUrl: 'views/beer-list.html',
+        controller: 'BeerListCtrl'
+      })
+
+      .whenAuthenticated('/beers/:index', {
+        templateUrl: 'views/beer-check-in.html',
+        controller: 'BeerCheckInCtrl'
+      })
+
       .when('/chat', {
         templateUrl: 'views/chat.html',
         controller: 'ChatCtrl'

@@ -1,0 +1,6 @@
+<table class="beer-list table table-striped">
+  <tr ng-repeat="b in readOnly.beers" ng-click="goToBeer($index)">
+    <td>{{b.name}}</td>
+    <td><button class="btn btn-primary">Check In</button></td>
+  </tr>
+</table>
