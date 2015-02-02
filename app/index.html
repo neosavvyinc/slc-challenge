@@ -2,7 +2,7 @@
 <html class="no-js">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>ng-conf - Salt Lake City Challenge</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -21,21 +21,11 @@
 
     <!-- Add your site or application content here -->
     <div class="container">
-      <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a ng-href="#">Home</a></li>
-          <li>
-            <a ng-hide-auth="" href="#/login">log in</a>
-            <a ng-show-auth="" href="#/account">account</a>
-          </li>
-          </ul>
-        <h3 class="text-muted">slcChallenge</h3>
-      </div>
 
       <div ng-view=""></div>
 
       <div class="footer">
-        <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team, and from Firebase</p>
+
       </div>
     </div>
 
@@ -104,6 +94,9 @@
         <script src="scripts/controllers/beer-list.js"></script>
         <script src="scripts/services/memoize.js"></script>
         <script src="scripts/services/read-only.js"></script>
+        <script src="scripts/services/update-only.js"></script>
+        <script src="scripts/services/global-error-handler.js"></script>
+        <script src="scripts/services/set-handler.js"></script>
         <!-- endbuild -->
 </body>
 </html>

@@ -1,7 +1,28 @@
 {
   "beers": [
-    {"name": "Miller"},
-    {"name": "Guinness"},
-    {"name": "Stone IPA"}
-  ]
+    {
+      "name": "Miller",
+      "image": "http://i1113.photobucket.com/albums/k513/tewen2/slc_challenge/miller-beer_zps74ed8df3.jpg",
+      "url": "http://www.millercoors.com/",
+      "description": "Rainbow trout tommy ruff rudd lake whitefish snake mackerel devil ray, mackerel shark blacktip reef shark. Píntano bango piranha dragon goby zebra trout gray reef shark Redhorse sucker.\n\n Pearlfish ronquil bottlenose surgeonfish scabbard fish, brown trout. Kahawai snailfish hagfish: lagena, Jack Dempsey Reef triggerfish zebra trout, regal whiptail catfish parrotfish: pikehead? Four-eyed fish luminous hake flathead sea dragon eucla cod needlefish deepwater flathead grideye. Butterflyfish, European eel yellowfin pike hawkfish, European chub giant danio baikal oilfish swordfish anglerfish chubsucker. Sandroller, searobin flathead burbot northern lampfish rivuline Pacific herring whitefish glowlight danio. Pacific cod pleco tuna climbing perch, unicorn fish icefish lookdown catfish rice eel river shark alewife."
+    },
+    {
+      "name": "Guinness",
+      "image": "http://i1113.photobucket.com/albums/k513/tewen2/slc_challenge/guinness_zps14404369.jpg",
+      "url": "http://www.guinness.com/en-us/home.html",
+      "description": "Tommy ruff Australasian salmon capelin clown loach anchovy noodlefish ling goby pearleye frilled shark greeneye Sevan trout. Atlantic silverside. Blue triggerfish banjo catfish clown loach Redfin perch sawfish, seamoth pilot fish beardfish. Frogfish dartfish zebra lionfish, Manta Ray California smoothtongue hillstream loach wrasse, southern smelt beaked sandfish yellowhead jawfish salmon shark blue gourami Bombay duck three-toothed puffer. Bonnetmouth redlip blenny goatfish longfin smelt, dojo loach redmouth whalefish spiny dogfish, zebra loach round herring."
+    },
+    {
+      "name": "Stone IPA",
+      "image": "http://i1113.photobucket.com/albums/k513/tewen2/slc_challenge/stone-ipa_zps4e54dc0d.jpg",
+      "url": "http://www.stonebrewing.com/ipa/",
+      "description": "Gulper eel beluga sturgeon yellowhead jawfish round whitefish wallago, dealfish American sole. Chum salmon lemon shark burma danio silver carp glass catfish anglerfish skipping goby shortnose greeneye denticle herring. Yellowfin surgeonfish golden trout yellowfin tuna Cornish Spaktailed Bream angler catfish Reef triggerfish featherback cowfish. Sundaland noodlefish longnose lancetfish false cat shark turkeyfish alooh, ponyfish whiting kahawai roundhead. Upside-down catfish bluntnose minnow porgy. Candlefish bottlenose snake mackerel pencilsmelt eeltail catfish; Oregon chub viperfish: European minnow golden shiner round stingray.\n\nMoorish idol galjoen fish Australian herring; mail-cheeked fish; mosshead warbonnet, barbelless catfish. Cardinalfish soapfish dwarf loach airsac catfish, escolar North American darter velvet catfish, fusilier fish. Channel catfish threadfin bream scat mola mola sunfish. South American Lungfish stream catfish mackerel shark wobbegong. Yellowfin croaker, European flounder nurse shark Devario stoneroller minnow, mackerel morid cod combtail gourami clown triggerfish armorhead, mooneye daggertooth pike conger."
+    }
+  ],
+  "users" : {
+    "simplelogin:1" : {
+      "email" : "tewen@neosavvy.com",
+      "name" : "Tewen"
+    }
+  }
 }

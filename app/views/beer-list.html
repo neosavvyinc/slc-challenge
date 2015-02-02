@@ -1,6 +1,13 @@
 <table class="beer-list table table-striped">
-  <tr ng-repeat="b in readOnly.beers" ng-click="goToBeer($index)">
+  <tr ng-repeat="(id, b) in beers" ng-click="beerListCtrl.goToBeer(id)"
+      ng-class="beerListCtrl.beerCheckedIn(id, checkIns) ? 'success' : ''">
     <td>{{b.name}}</td>
-    <td><button class="btn btn-primary">Check In</button></td>
+    <td>
+      <button class="btn btn-primary">
+        <span ng-class="beerListCtrl.beerCheckedIn(id, checkIns) ? 'glyphicon glyphicon-ok' : ''">
+          {{beerListCtrl.beerCheckedIn(id, checkIns) ? '' : 'Check In'}}
+        </span>
+      </button>
+    </td>
   </tr>
 </table>

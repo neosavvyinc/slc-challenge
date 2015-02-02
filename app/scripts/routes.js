@@ -57,19 +57,10 @@ angular.module('slcChallengeApp')
   // which should only be available while logged in
   .config(['$routeProvider', function($routeProvider) {
     $routeProvider
-      .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
-      })
 
       .when('/login', {
         templateUrl: 'views/login.html',
         controller: 'LoginCtrl'
-      })
-
-      .when('/chat', {
-        templateUrl: 'views/chat.html',
-        controller: 'ChatCtrl'
       })
 
       .whenAuthenticated('/account', {
@@ -79,19 +70,17 @@ angular.module('slcChallengeApp')
 
       .whenAuthenticated('/beers', {
         templateUrl: 'views/beer-list.html',
-        controller: 'BeerListCtrl'
+        controller: 'BeerListCtrl',
+        controllerAs: 'beerListCtrl'
       })
 
       .whenAuthenticated('/beers/:index', {
         templateUrl: 'views/beer-check-in.html',
-        controller: 'BeerCheckInCtrl'
+        controller: 'BeerCheckInCtrl',
+        controllerAs: 'beerCheckInCtrl'
       })
 
-      .when('/chat', {
-        templateUrl: 'views/chat.html',
-        controller: 'ChatCtrl'
-      })
-      .otherwise({redirectTo: '/'});
+      .otherwise({redirectTo: '/beers'});
   }])
 
   /**
