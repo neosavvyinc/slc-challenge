@@ -38,10 +38,10 @@ angular.module('slcChallengeApp')
           .then(redirect, showError);
       }
     };
-    
+
 
     function redirect() {
-      $location.path('/account');
+      $location.path('/leaders');
     }
 
     function showError(err) {
