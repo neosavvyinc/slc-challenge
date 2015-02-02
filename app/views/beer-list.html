@@ -1,8 +1,13 @@
 <div class="beer-list row">
   <div ng-include="'views/main-header.html'"></div>
   <div class="col-xs-12">
+    <div class="form-group">
+      <input type="text" class="form-control input-lg" ng-model="beerListCtrl.localState.searchTerm"
+             ng-model-options="{debounce: 100}"
+             placeholder="Search..."/>
+    </div>
     <table class="table table-striped">
-      <tr ng-repeat="(id, b) in beers" ng-click="beerListCtrl.goToBeer(id)"
+      <tr ng-repeat="(id, b) in beerListCtrl.searchFiltered(beers, beerListCtrl.localState.searchTerm)" ng-click="beerListCtrl.goToBeer(id)"
           ng-class="beerListCtrl.beerCheckedIn(id, checkIns) ? 'success' : ''">
         <td>{{b.name}}</td>
         <td>
