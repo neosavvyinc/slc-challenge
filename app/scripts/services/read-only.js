@@ -31,7 +31,7 @@ angular.module('slcChallengeApp')
             _.each(users, function (u, id) {
               u.id = id;
               //This collection is 1 larger than the actual number of checkins
-              u.checkInsLength = _.keys(checkIns[id]).length - 1;
+              u.checkInsLength = _(checkIns[id]).values().compact().valueOf().length;
             });
             deferred.resolve(users);
           }
@@ -41,7 +41,7 @@ angular.module('slcChallengeApp')
         doResolve(users, checkIns);
       });
       fbutil.ref('checkins').once('value', function (snapshot) {
-        checkIns = snapshot.val();
+        checkIns = snapshot.val() || {};
         doResolve(users, checkIns);
       });
       return deferred.promise;

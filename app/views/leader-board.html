@@ -6,7 +6,7 @@
       <th>Username</th>
       <th>Beers</th>
       </thead>
-      <tr ng-repeat="u in leaderBoardCtrl.leaderBoardOrdering(users)">
+      <tr ng-repeat="u in leaderBoardCtrl.leaderBoardOrdering(users)" ng-class="leaderBoardCtrl.currentUser.uid == u.id ? 'info' : ''">
         <td>{{u.name}}</td>
         <td>{{u.checkInsLength}}</td>
       </tr>
