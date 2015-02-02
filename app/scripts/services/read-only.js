@@ -8,7 +8,7 @@
  * Factory in the slcChallengeApp.
  */
 angular.module('slcChallengeApp')
-  .factory('readOnly', function ($rootScope, fbutil, simpleLogin) {
+  .factory('readOnly', function ($rootScope, $q, fbutil, simpleLogin) {
 
     var readOnly = {};
 
@@ -23,6 +23,28 @@ angular.module('slcChallengeApp')
     };
     readOnly.checkIn = function (beerId) {
       return fbutil.syncObject('checkins/' + simpleLogin.getUser().uid + '/' + beerId);
+    };
+    readOnly.allUsers = function () {
+      var deferred = $q.defer(), users, checkIns;
+      var doResolve = function (users, checkIns) {
+          if (users && checkIns) {
+            _.each(users, function (u, id) {
+              u.id = id;
+              //This collection is 1 larger than the actual number of checkins
+              u.checkInsLength = _.keys(checkIns[id]).length - 1;
+            });
+            deferred.resolve(users);
+          }
+      };
+      fbutil.ref('users').once('value', function (snapshot) {
+        users = snapshot.val();
+        doResolve(users, checkIns);
+      });
+      fbutil.ref('checkins').once('value', function (snapshot) {
+        checkIns = snapshot.val();
+        doResolve(users, checkIns);
+      });
+      return deferred.promise;
     };
 
     return readOnly;

@@ -68,6 +68,12 @@ angular.module('slcChallengeApp')
         controller: 'AccountCtrl'
       })
 
+      .whenAuthenticated('/leaders', {
+        templateUrl: 'views/leader-board.html',
+        controller: 'LeaderBoardCtrl',
+        controllerAs: 'leaderBoardCtrl'
+      })
+
       .whenAuthenticated('/beers', {
         templateUrl: 'views/beer-list.html',
         controller: 'BeerListCtrl',
@@ -80,7 +86,7 @@ angular.module('slcChallengeApp')
         controllerAs: 'beerCheckInCtrl'
       })
 
-      .otherwise({redirectTo: '/beers'});
+      .otherwise({redirectTo: '/leaders'});
   }])
 
   /**

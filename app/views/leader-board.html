@@ -1,1 +1,12 @@
-<p>This is the leader-board view.</p>
+<div class="leader-board row">
+  <table class="table col-xs-12">
+    <thead class="text-uppercase">
+    <th>Username</th>
+    <th>Beers</th>
+    </thead>
+    <tr ng-repeat="u in leaderBoardCtrl.leaderBoardOrdering(users)">
+      <td>{{u.name}}</td>
+      <td>{{u.checkInsLength}}</td>
+    </tr>
+  </table>
+</div>
