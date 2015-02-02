@@ -18,4 +18,16 @@ angular.module('slcChallengeApp', [
     'firebase',
     'firebase.utils',
     'simpleLogin'
-  ]);
+  ]).run(function ($rootScope, $location) {
+    $rootScope.$location = $location;
+    $rootScope.headerLinks = {
+      '/beers': {
+        label: 'Go to the Leaderboard',
+        href: 'leaders'
+      },
+      '/leaders': {
+        label: 'Go to the Beer List',
+        href: 'beers'
+      }
+    };
+});

@@ -1,13 +1,18 @@
-<table class="beer-list table table-striped">
-  <tr ng-repeat="(id, b) in beers" ng-click="beerListCtrl.goToBeer(id)"
-      ng-class="beerListCtrl.beerCheckedIn(id, checkIns) ? 'success' : ''">
-    <td>{{b.name}}</td>
-    <td>
-      <button class="btn btn-primary">
+<div class="beer-list row">
+  <div ng-include="'views/main-header.html'"></div>
+  <div class="col-xs-12">
+    <table class="table table-striped">
+      <tr ng-repeat="(id, b) in beers" ng-click="beerListCtrl.goToBeer(id)"
+          ng-class="beerListCtrl.beerCheckedIn(id, checkIns) ? 'success' : ''">
+        <td>{{b.name}}</td>
+        <td>
+          <button class="btn btn-primary">
         <span ng-class="beerListCtrl.beerCheckedIn(id, checkIns) ? 'glyphicon glyphicon-ok' : ''">
           {{beerListCtrl.beerCheckedIn(id, checkIns) ? '' : 'Check In'}}
         </span>
-      </button>
-    </td>
-  </tr>
-</table>
+          </button>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
