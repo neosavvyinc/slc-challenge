@@ -18,7 +18,7 @@ angular.module('slcChallengeApp')
     this.leaderBoardOrdering = function (users) {
       if (users) {
         return _(users).values().compact().map(function (u) {
-          u.primaryOrder = -1 * u.checkInsLength;
+          u.primaryOrder = (-1 * u.checkInsLength);
           return u;
         }).sortByAll(['primaryOrder', 'name']).valueOf();
       }

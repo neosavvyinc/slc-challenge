@@ -30,7 +30,7 @@ angular.module('slcChallengeApp')
     };
     this.submit = function (e) {
       e.preventDefault();
-      updateOnly.checkIn($scope.beer, _.pick(this.localState, ['bar', 'bartender'])).then(function () {
+      updateOnly.checkIn($scope.beer, _.pick(this.localState, ['bar', 'bartender', 'type'])).then(function () {
         $location.path('/');
       }).catch(globalErrorHandler);
     };
