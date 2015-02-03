@@ -17,7 +17,8 @@ angular.module('slcChallengeApp', [
     'ngTouch',
     'firebase',
     'firebase.utils',
-    'simpleLogin'
+    'simpleLogin',
+    'angular-growl'
   ]).run(function ($rootScope, $location) {
     $rootScope.$location = $location;
     $rootScope.headerLinks = {
