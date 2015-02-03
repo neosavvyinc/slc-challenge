@@ -8,16 +8,8 @@
  * Factory in the slcChallengeApp.
  */
 angular.module('slcChallengeApp')
-  .factory('globalErrorHandler', function () {
-    // Service logic
-    // ...
-
-    var meaningOfLife = 42;
-
-    // Public API here
-    return {
-      someMethod: function () {
-        return meaningOfLife;
-      }
+  .factory('globalErrorHandler', function (growl) {
+    return function () {
+      growl.danger('There was an error with the service, an email has been sent to tewen@neosavvy.com');
     };
   });
