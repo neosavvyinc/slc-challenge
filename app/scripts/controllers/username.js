@@ -8,7 +8,7 @@
  * Controller of the slcChallengeApp
  */
 angular.module('slcChallengeApp')
-  .controller('UsernameCtrl', function ($scope, readOnly, memoize) {
+  .controller('UsernameCtrl', function ($scope, $location, readOnly, updateOnly, globalErrorHandler, memoize) {
     readOnly.allUsers().then(function (users) {
       this.localState.allUsers = users;
     }.bind(this));
@@ -42,4 +42,13 @@ angular.module('slcChallengeApp')
     this.buttonLabel = function () {
       return {'0': 'Confirm Username', '1': 'Choose Username', '2': 'Username is Already Taken'}[usernameState()];
     };
+
+    this.submit = function (e) {
+      e.preventDefault();
+      if (usernameState() === '0') {
+        updateOnly.username(this.localState.username).then(function () {
+            $location.path('/leaders');
+        }).catch(globalErrorHandler);
+      }
+    }
   });
