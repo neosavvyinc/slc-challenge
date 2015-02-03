@@ -1,0 +1,12 @@
+<div class="username row">
+  <form class="form">
+    <div class="form-group">
+      <input class="form-control input-lg" ng-model="usernameCtrl.localState.username" placeholder="Choose a Username"/>
+    </div>
+    <div class="form-group">
+      <button class="btn btn-block btn-lg" ng-class="usernameCtrl.buttonClass(usernameCtrl.localState.username)">
+        {{usernameCtrl.buttonLabel(usernameCtrl.localState.username)}}
+      </button>
+    </div>
+  </form>
+</div>

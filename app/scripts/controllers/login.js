@@ -8,29 +8,29 @@
  */
 angular.module('slcChallengeApp')
   .controller('LoginCtrl', function ($scope, simpleLogin, $location) {
-    $scope.oauthLogin = function(provider) {
+    $scope.oauthLogin = function (provider) {
       $scope.err = null;
-      simpleLogin.login(provider, {rememberMe: true}).then(redirect, showError);
+      simpleLogin.login(provider, {rememberMe: true}).then(oAuthRedirect, showError);
     };
 
-    $scope.anonymousLogin = function() {
+    $scope.anonymousLogin = function () {
       $scope.err = null;
       simpleLogin.anonymousLogin({rememberMe: true}).then(redirect, showError);
     };
 
-    $scope.passwordLogin = function(email, pass) {
+    $scope.passwordLogin = function (email, pass) {
       $scope.err = null;
       simpleLogin.passwordLogin({email: email, password: pass}, {rememberMe: true}).then(
         redirect, showError
       );
     };
 
-    $scope.createAccount = function(email, pass, confirm) {
+    $scope.createAccount = function (email, pass, confirm) {
       $scope.err = null;
-      if( !pass ) {
+      if (!pass) {
         $scope.err = 'Please enter a password';
       }
-      else if( pass !== confirm ) {
+      else if (pass !== confirm) {
         $scope.err = 'Passwords do not match';
       }
       else {
@@ -39,6 +39,9 @@ angular.module('slcChallengeApp')
       }
     };
 
+    function oAuthRedirect() {
+      $location.path('/username');
+    }
 
     function redirect() {
       $location.path('/leaders');
