@@ -32,7 +32,7 @@ angular.module('slcChallengeApp')
         }
       }
       return '1';
-    };
+    }.bind(this);
 
     //Controller methods
     this.buttonClass = function () {
@@ -40,14 +40,6 @@ angular.module('slcChallengeApp')
     };
 
     this.buttonLabel = function () {
-      if (this.localState.allUsers && username) {
-        if (foundUser(this.localState.allUsers, username)) {
-          return 'Username is Already Taken';
-        } else {
-          return 'Confirm Username';
-        }
-      } else {
-        return 'Choose Username';
-      }
+      return {'0': 'Confirm Username', '1': 'Choose Username', '2': 'Username is Already Taken'}[usernameState()];
     };
   });
