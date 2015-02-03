@@ -12,6 +12,9 @@ angular.module('slcChallengeApp')
     //Get the beer by index
     readOnly.beer($routeParams.index).$bindTo($scope, 'beer');
     readOnly.checkIn($routeParams.index).$bindTo($scope, 'checkIn');
+    readOnly.bars().then(function (bars) {
+      $scope.bars = bars;
+    });
 
     var hasRequiredFields = function (checkIn) {
         return checkIn && checkIn.bar && checkIn.bartender;

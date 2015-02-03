@@ -41,9 +41,23 @@ angular.module('slcChallengeApp')
         doResolve(users, checkIns);
       });
       fbutil.ref('checkins').once('value', function (snapshot) {
+        //@TODO, could combine this with the earlir call, for more efficiency
         checkIns = snapshot.val() || {};
         doResolve(users, checkIns);
       });
+      return deferred.promise;
+    };
+    readOnly.bars = function () {
+      var deferred = $q.defer();
+      fbutil.ref('checkins').once('value', function (snapshot) {
+        //@TODO, could combine this with the earlir call, for more efficiency
+        var val = snapshot.val();
+        if (val) {
+            //@TODO, this is a little intense, may be a more performant way to manage this.
+            val = _(val).values().compact().map(_.values).flatten().compact().map('bar').uniq().valueOf();
+        }
+        deferred.resolve(val);
+      }, deferred.reject);
       return deferred.promise;
     };
 

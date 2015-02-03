@@ -18,7 +18,8 @@ angular.module('slcChallengeApp', [
   'firebase',
   'firebase.utils',
   'simpleLogin',
-  'angular-growl'
+  'angular-growl',
+  'autocomplete'
 ]).config(function (growlProvider) {
   growlProvider.globalTimeToLive({success: 2000, danger: 5000});
 }).run(function ($rootScope, $location) {
