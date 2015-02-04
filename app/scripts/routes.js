@@ -67,6 +67,10 @@ angular.module('slcChallengeApp')
         templateUrl: 'views/about.html'
       })
 
+      .when('/tech', {
+        templateUrl: 'views/technology.html'
+      })
+
       .whenAuthenticated('/username', {
         templateUrl: 'views/username.html',
         controller: 'UsernameCtrl',
