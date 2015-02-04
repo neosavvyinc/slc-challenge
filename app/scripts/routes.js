@@ -63,6 +63,10 @@ angular.module('slcChallengeApp')
         controller: 'LoginCtrl'
       })
 
+      .when('/about', {
+        templateUrl: 'views/about.html'
+      })
+
       .whenAuthenticated('/username', {
         templateUrl: 'views/username.html',
         controller: 'UsernameCtrl',
