@@ -37,3 +37,7 @@ $common-margins: (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 20, 30, 40, 50);
 .no-margin-left {
   margin-left: 0;
 }
+
+.clear {
+  clear: both;
+}

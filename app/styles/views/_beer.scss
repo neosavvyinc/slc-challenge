@@ -3,9 +3,12 @@
     width: 100%;
   }
   .slide {
-    &.animate-enter, &.animate-leave {
-      -webkit-transition: 0.5s linear all;
-      transition: 0.5s linear all;
+    &.ng-animate {
+      -webkit-transition: all linear 0.3s;
+      -moz-transition: all linear 0.3s;
+      -ms-transition: all linear 0.3s;
+      -o-transition: all linear 0.3s;
+      transition: all linear 0.3s;
     }
   }
 }

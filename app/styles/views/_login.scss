@@ -1,0 +1,35 @@
+.login {
+  .google, .twitter, .github {
+    width: 100%;
+  }
+  .google {
+    display: inline-block;
+    background: #dd4b39;
+    color: white;
+    border-radius: 5px;
+    white-space: nowrap;
+    height: 92px;
+    &:hover, &:active {
+      background: #e74b37;
+      cursor: hand;
+    }
+    .icon {
+      background: url('../images/btn_g_red_normal.png-34.png') transparent 5px 50% no-repeat;
+      display: inline-block;
+      vertical-align: middle;
+      width: 92px;
+      height: 92px;
+      border-right: #bb3f30 1px solid;
+    }
+    .text {
+      display: inline-block;
+      vertical-align: middle;
+      padding-left: 35px;
+      padding-right: 35px;
+      font-size: 24px;
+      font-weight: bold;
+      /* Use the Roboto font that is loaded in the <head> */
+      font-family: 'Roboto', arial, sans-serif;
+    }
+  }
+}
