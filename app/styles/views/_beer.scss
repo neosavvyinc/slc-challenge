@@ -2,4 +2,10 @@
   img {
     width: 100%;
   }
+  .slide {
+    &.ng-show, &.ng-hide {
+      -webkit-transition: 0.5s linear all;
+      transition: 0.5s linear all;
+    }
+  }
 }
