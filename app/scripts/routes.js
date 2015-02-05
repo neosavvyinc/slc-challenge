@@ -88,6 +88,12 @@ angular.module('slcChallengeApp')
         controllerAs: 'leaderBoardCtrl'
       })
 
+      .whenAuthenticated('/leaders/:name', {
+        templateUrl: 'views/leader-data.html',
+        controller: 'LeaderDataCtrl',
+        controllerAs: 'leaderDataCtrl'
+      })
+
       .whenAuthenticated('/beers', {
         templateUrl: 'views/beer-list.html',
         controller: 'BeerListCtrl',
