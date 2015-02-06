@@ -5,4 +5,15 @@
   .slide {
 
   }
+  .autocomplete {
+    ul {
+      padding-left: 0;
+      li {
+        padding: 1em;
+        &:hover, &:active, &:focus, &.active {
+          background-color: $salt_lake_city_lite_green;
+        }
+      }
+    }
+  }
 }

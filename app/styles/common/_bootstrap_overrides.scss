@@ -9,8 +9,9 @@ a, .btn-link {
 .btn-primary {
   background-color: #333333;
   border-color: #000000;
-  &:hover, &:active {
+  &:hover, &:active, &:focus {
     background-color: #000000;
+    border-color: #000000;
   }
 }
 
