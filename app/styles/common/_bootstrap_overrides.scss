@@ -1,3 +1,11 @@
+a, .btn-link {
+  color: $salt_lake_city_lite_green;
+  &:hover, &:active {
+    color: $salt_lake_city_green;
+    text-decoration: none;
+  }
+}
+
 .btn-primary {
   background-color: #333333;
   border-color: #000000;
@@ -11,5 +19,38 @@
   border-color: $salt_lake_city_green;
   &:hover, &:active {
     background-color: $salt_lake_city_green;
+  }
+}
+
+.table {
+  tbody {
+    font-size: 12px;
+    a {
+      font-size: 12px;
+    }
+    tr {
+      text-transform: uppercase;
+      cursor: pointer;
+      &.success {
+        a, button, .btn-link {
+          color: #333333;
+          &:active, &:hover {
+            color: #000000;
+          }
+        }
+        td {
+          background-color: $salt_lake_city_lite_blue;
+        }
+      }
+      &:active {
+        font-weight: bold;
+        a {
+          font-weight: bold;
+        }
+      }
+      td {
+        vertical-align: middle;
+      }
+    }
   }
 }

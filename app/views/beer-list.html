@@ -6,18 +6,22 @@
              ng-model-options="{debounce: 100}"
              placeholder="Search..."/>
     </div>
-    <table class="table table-striped">
-      <tr ng-repeat="(id, b) in beerListCtrl.searchFiltered(beers, beerListCtrl.localState.searchTerm)" ng-click="beerListCtrl.goToBeer(id)"
-          ng-class="beerListCtrl.beerCheckedIn(id, checkIns) ? 'success' : ''">
-        <td>{{b.name}}</td>
-        <td>
-          <button class="btn btn-primary">
-        <span ng-class="beerListCtrl.beerCheckedIn(id, checkIns) ? 'glyphicon glyphicon-ok' : ''">
-          {{beerListCtrl.beerCheckedIn(id, checkIns) ? '' : 'Check In'}}
-        </span>
-          </button>
-        </td>
-      </tr>
+    <table class="table">
+      <tbody>
+        <tr ng-repeat="(id, b) in beerListCtrl.searchFiltered(beers, beerListCtrl.localState.searchTerm)"
+            ng-click="beerListCtrl.goToBeer(id)"
+            ng-class="beerListCtrl.beerCheckedIn(id, checkIns) ? 'success' : ''">
+          <td>{{b.name}}</td>
+          <td>{{b.brewery}}</td>
+          <td>
+            <button class="btn btn-link">
+              <span class="link-text">CHECK IN</span>
+            <span class="glyphicon glyphicon-ok">
+            </span>
+            </button>
+          </td>
+        </tr>
+      </tbody>
     </table>
   </div>
 </div>

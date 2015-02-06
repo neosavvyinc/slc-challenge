@@ -1,0 +1,48 @@
+.beer-list {
+  .table {
+    tbody {
+      tr {
+        &.success {
+          td {
+            .btn-link {
+              .link-text {
+                display: none;
+              }
+              .glyphicon {
+                display: block;
+                color: #000000;
+              }
+            }
+          }
+        }
+        td {
+          .btn-link {
+            .glyphicon {
+              display: none;
+            }
+            .link-text {
+              display: inline;
+            }
+          }
+          .glyphicon {
+            font-size: 16px;
+            left: 18px;
+          }
+        }
+        &:hover {
+          td {
+            .btn-link {
+              .glyphicon {
+                display: block;
+                color: #000000;
+              }
+              .link-text {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
