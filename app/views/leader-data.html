@@ -2,13 +2,11 @@
   <div ng-include="'views/main-header.html'"></div>
   <div class="col-xs-12">
     <table class="table">
-      <thead>
-      <th>Beer</th>
-      <th>When</th>
-      </thead>
       <tr ng-repeat="checkIn in checkIns | orderBy:'-time'">
-        <td>{{checkIn.beer}}</td>
-        <td>{{checkIn.time | timeDisplay}}</td>
+        <td>{{checkIn.beer.name}}</td>
+        <td>{{checkIn.beer.brewery}}</td>
+        <td><span class="glyphicon glyphicon-time"></span></td>
+        <td><b>{{checkIn.time | timeDisplay}}</b></td>
       </tr>
     </table>
   </div>

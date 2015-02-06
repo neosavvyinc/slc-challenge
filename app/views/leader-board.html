@@ -1,14 +1,11 @@
 <div class="leader-board row">
   <div ng-include="'views/main-header.html'"></div>
   <div class="col-xs-12">
-    <table class="table">
-      <thead class="text-uppercase">
-      <th>Username</th>
-      <th>Beers</th>
-      </thead>
-      <tr ng-repeat="u in leaderBoardCtrl.leaderBoardOrdering(users)" ng-class="leaderBoardCtrl.currentUser.uid == u.id ? 'info' : ''">
-        <td><a href="#/leaders/{{u.name}}">{{u.name}}</a></td>
-        <td><a href="#/leaders/{{u.name}}">{{u.checkInsLength}}</a></td>
+    <table class="table table-bordered">
+      <tr ng-repeat="u in leaderBoardCtrl.leaderBoardOrdering(users)"
+          ng-class="leaderBoardCtrl.currentUser.uid == u.id ? 'success' : ''" ng-click="leaderBoardCtrl.onGoToLeader(u)">
+        <td class="no-text-transform">{{u.name}}</td>
+        <td class="no-text-transform">{{u.checkIns.length}} Beers</td>
       </tr>
     </table>
   </div>

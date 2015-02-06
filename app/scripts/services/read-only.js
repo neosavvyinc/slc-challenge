@@ -18,6 +18,9 @@ angular.module('slcChallengeApp')
     readOnly.beer = function (idx) {
         return fbutil.syncObject('beers/' + String(idx));
     };
+    readOnly.allCheckIns = function () {
+      return fbutil.syncObject('checkins');
+    };
     readOnly.checkIns = function () {
       return fbutil.syncObject('checkins/' + simpleLogin.getUser().uid);
     };
@@ -31,7 +34,12 @@ angular.module('slcChallengeApp')
             _.each(users, function (u, id) {
               u.id = id;
               //This collection is 1 larger than the actual number of checkins
-              u.checkInsLength = _(checkIns[id]).values().compact().valueOf().length;
+              u.checkIns = _(checkIns[id]).map(function (v, k) {
+                if (_.isObject(v)) {
+                    v.beerId = k;
+                }
+                return v;
+              }).compact().valueOf();
             });
             deferred.resolve(users);
           }
