@@ -8,8 +8,7 @@
           ng-if="!beerCheckInCtrl.checkInExists()">
       <div class="col-xs-12">
         <div class="form-group">
-          <button class="btn btn-lg btn-block text-uppercase"
-                  ng-class="beerCheckInCtrl.localState.checkInFields ? 'btn-danger' : 'btn-primary'"
+          <button class="btn btn-lg btn-primary btn-block text-uppercase"
                   ng-click="beerCheckInCtrl.checkInNow($event)">
             {{beerCheckInCtrl.localState.checkInFields ? 'Not Now' : 'Check In Now'}}
           </button>
