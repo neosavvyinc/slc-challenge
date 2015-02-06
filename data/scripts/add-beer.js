@@ -3,6 +3,7 @@ var when = require('when');
 var _ = require("lodash-node");
 var fs = require("fs");
 var uploadImages = require("./upload-images");
+var optimizeImages = require("./optimize-images");
 
 var S3_BASE = '//s3-us-west-2.amazonaws.com/slcchallenge/images/';
 
@@ -15,7 +16,7 @@ prompt.get(['name', 'brewery', 'description', 'url', 'image'], function (err, re
 
   fs.writeFileSync('./data/db.json', JSON.stringify(existingDb));
 
-  uploadImages();
+  optimizeImages().then(uploadImages)
 });
 
 
