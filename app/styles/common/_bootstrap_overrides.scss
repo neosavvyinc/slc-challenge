@@ -1,0 +1,15 @@
+.btn-primary {
+  background-color: #333333;
+  border-color: #000000;
+  &:hover, &:active {
+    background-color: #000000;
+  }
+}
+
+.btn-success {
+  background-color: $salt_lake_city_lite_green;
+  border-color: $salt_lake_city_green;
+  &:hover, &:active {
+    background-color: $salt_lake_city_green;
+  }
+}

@@ -3,9 +3,11 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
 
+@import "common/variables";
 @import "helpers/margin";
 @import "helpers/padding";
 @import "helpers/typography";
+@import "common/bootstrap_overrides";
 @import "views/login";
 @import "views/leader_board";
 @import "views/beer";
@@ -50,7 +52,6 @@ body {
 .footer {
   padding-top: 19px;
   color: #777;
-  border-top: 1px solid #e5e5e5;
 }
 
 .container-narrow > hr {

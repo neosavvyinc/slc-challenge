@@ -36,11 +36,11 @@ angular.module('slcChallengeApp')
 
     //Controller methods
     this.buttonClass = function () {
-      return {'0': 'btn-success', '1': 'btn-warning', '2': 'btn-danger'}[usernameState()];
+      return {'0': 'btn-success', '1': 'btn-primary', '2': 'btn-danger'}[usernameState()];
     };
 
     this.buttonLabel = function () {
-      return {'0': 'Confirm Username', '1': 'Choose Username', '2': 'Username is Already Taken'}[usernameState()];
+      return {'0': 'Confirm Username', '1': 'Type Desired Username', '2': 'Username is Already Taken'}[usernameState()];
     };
 
     this.submit = function (e) {
