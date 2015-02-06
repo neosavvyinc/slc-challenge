@@ -8,9 +8,9 @@
     </div>
     <table class="table">
       <tbody>
-        <tr ng-repeat="(id, b) in beerListCtrl.searchFiltered(beers, beerListCtrl.localState.searchTerm)"
-            ng-click="beerListCtrl.goToBeer(id)"
-            ng-class="beerListCtrl.beerCheckedIn(id, checkIns) ? 'success' : ''">
+        <tr ng-repeat="b in beerListCtrl.searchFiltered(beers, beerListCtrl.localState.searchTerm)"
+            ng-click="beerListCtrl.goToBeer(b.id)"
+            ng-class="beerListCtrl.beerCheckedIn(b.id, checkIns) ? 'success' : ''">
           <td>{{b.name}}</td>
           <td>{{b.brewery}}</td>
           <td>

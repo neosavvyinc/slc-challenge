@@ -13,6 +13,13 @@ angular.module('slcChallengeApp')
     readOnly.checkIns().$bindTo($scope, 'checkIns');
 
     //Controller Methods
+    function sortObject(obj) {
+      if (obj) {
+        return _(obj).values().sortBy('name').valueOf();
+      }
+      return obj;
+    }
+
     this.localState = {
       searchTerm: ''
     };
@@ -33,9 +40,11 @@ angular.module('slcChallengeApp')
             }
           }
         });
-        return filtered;
+        //@TODO, these sorts could be more efficient
+        return sortObject(filtered);
       }
-      return beers;
+      //@TODO, these sorts could be more efficient
+      return sortObject(beers);
     };
 
     this.beerCheckedIn = memoize(function (id, checkIns) {
