@@ -51,6 +51,30 @@ angular.module('slcChallengeApp')
       SECURED_ROUTES[path] = true;
       return $routeProvider;
     };
+
+    $routeProvider.whenAuthenticatedWithUsername = function (path, route) {
+      $routeProvider.whenAuthenticated.apply(this, arguments);
+      route.resolve.userName = ['readOnly', 'simpleLogin', '$parse', '$q', '$rootScope', '$location',
+        function (readOnly, simpleLogin, $parse, $q, $rootScope, $location) {
+          //@TODO, could be refactored to be a just a bit cleaner
+          var deferred = $q.defer();
+          var privateScope = $rootScope.$new();
+          var de = privateScope.$watch('user', function (val) {
+            if (val) {
+              if (val.name) {
+                deferred.resolve(val);
+              } else {
+                deferred.reject(val);
+                $location.path('/username');
+              }
+              de();
+            }
+          });
+          readOnly.user($parse('uid')(simpleLogin.getUser())).$bindTo(privateScope, 'user');
+          return deferred.promise;
+        }];
+      return $routeProvider;
+    };
   }])
 
   // configure views; the authRequired parameter is used for specifying pages
@@ -77,30 +101,30 @@ angular.module('slcChallengeApp')
         controllerAs: 'usernameCtrl'
       })
 
-      .whenAuthenticated('/account', {
+      .whenAuthenticatedWithUsername('/account', {
         templateUrl: 'views/account.html',
         controller: 'AccountCtrl'
       })
 
-      .whenAuthenticated('/leaders', {
+      .whenAuthenticatedWithUsername('/leaders', {
         templateUrl: 'views/leader-board.html',
         controller: 'LeaderBoardCtrl',
         controllerAs: 'leaderBoardCtrl'
       })
 
-      .whenAuthenticated('/leaders/:name', {
+      .whenAuthenticatedWithUsername('/leaders/:name', {
         templateUrl: 'views/leader-data.html',
         controller: 'LeaderDataCtrl',
         controllerAs: 'leaderDataCtrl'
       })
 
-      .whenAuthenticated('/beers', {
+      .whenAuthenticatedWithUsername('/beers', {
         templateUrl: 'views/beer-list.html',
         controller: 'BeerListCtrl',
         controllerAs: 'beerListCtrl'
       })
 
-      .whenAuthenticated('/beers/:index', {
+      .whenAuthenticatedWithUsername('/beers/:index', {
         templateUrl: 'views/beer-check-in.html',
         controller: 'BeerCheckInCtrl',
         controllerAs: 'beerCheckInCtrl'

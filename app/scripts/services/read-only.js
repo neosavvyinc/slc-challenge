@@ -27,6 +27,9 @@ angular.module('slcChallengeApp')
     readOnly.checkIn = function (beerId) {
       return fbutil.syncObject('checkins/' + simpleLogin.getUser().uid + '/' + beerId);
     };
+    readOnly.user = function (uuid) {
+        return fbutil.syncObject('users/' + uuid);
+    };
     readOnly.allUsers = function () {
       var deferred = $q.defer(), users, checkIns;
       var doResolve = function (users, checkIns) {
