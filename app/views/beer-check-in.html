@@ -2,7 +2,7 @@
   <div class="col-xs-12">
     <h1 class="text-center text-uppercase">{{beer.name}}</h1>
 
-    <h2 class="bg-success text-center text-uppercase" ng-if="beerCheckInCtrl.checkInExists()">You have checked in!</h2>
+    <h2 class="bg-success text-center text-uppercase" ng-if="beerCheckInCtrl.checkInExists()">You checked in {{checkIn.time | momentFormat : 'dddd'}} at {{checkIn.time | momentFormat : 'h:mmA'}}</h2>
 
     <form class="form row margin-bottom-15-px" ng-submit="beerCheckInCtrl.submit($event)"
           ng-if="!beerCheckInCtrl.checkInExists()">

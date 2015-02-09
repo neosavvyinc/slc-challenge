@@ -19,7 +19,7 @@ angular.module('slcChallengeApp')
     };
     updateOnly.checkIn = function (beer, checkin) {
       var deferred = $q.defer();
-      checkin = _.merge(checkin, {time: moment().unix() + '000'});
+      checkin = _.merge(checkin, {time: moment().format('x')});
       fbutil.ref('checkins/' + simpleLogin.getUser().uid + '/' + beer.$id).
         set(checkin, setHandler(deferred, checkin));
       return deferred.promise;
