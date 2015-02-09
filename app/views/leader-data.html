@@ -6,7 +6,7 @@
         <td>{{checkIn.beer.name}}</td>
         <td>{{checkIn.beer.brewery}}</td>
         <td><span class="glyphicon glyphicon-time"></span></td>
-        <td><b>{{checkIn.time | timeDisplay}}</b></td>
+        <td><b>{{checkIn.time | momentFormat : 'dddd, h:mmA'}}</b></td>
       </tr>
     </table>
   </div>

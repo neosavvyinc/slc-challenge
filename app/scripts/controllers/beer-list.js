@@ -15,7 +15,12 @@ angular.module('slcChallengeApp')
     //Controller Methods
     function sortObject(obj) {
       if (obj) {
-        return _(obj).values().compact().filter(_.isObject).sortBy('name').valueOf();
+        return _(obj).map(function (beer, id) {
+          if (_.isObject(beer)) {
+            beer.id = id;
+          }
+          return beer;
+        }).compact().filter(_.isObject).sortBy('name').valueOf();
       }
       return obj;
     }

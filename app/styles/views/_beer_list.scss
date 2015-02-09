@@ -29,19 +29,6 @@
             left: 18px;
           }
         }
-        &:hover {
-          td {
-            .btn-link {
-              .glyphicon {
-                display: block;
-                color: #000000;
-              }
-              .link-text {
-                display: none;
-              }
-            }
-          }
-        }
       }
     }
   }

@@ -1,22 +1,27 @@
-var prompt = require('prompt');
-var when = require('when');
 var _ = require("lodash-node");
-var fs = require("fs");
+var prompt = require('prompt');
 var uploadImages = require("./upload-images");
 var optimizeImages = require("./optimize-images");
+var Firebase = require('firebase');
 
+var ref = new Firebase('https://slcchallenge.firebaseio.com/');
 var S3_BASE = '//s3-us-west-2.amazonaws.com/slcchallenge/images/';
 
 prompt.start();
 prompt.get(['name', 'brewery', 'description', 'url', 'image'], function (err, result) {
-  var existingDb = JSON.parse(fs.readFileSync('./data/db.json', 'utf-8'));
 
+  //Set image
   result.image = S3_BASE + result.image;
-  existingDb.beers.push(result);
 
-  fs.writeFileSync('./data/db.json', JSON.stringify(existingDb));
+  //Get the last index in the collection
+  ref.child('beers').once('value', function (snapshot) {
+    var length = snapshot.val().length;
 
-  optimizeImages().then(uploadImages)
+    ref.child('beers').child(String(length)).set(result);
+
+    optimizeImages().then(uploadImages);
+  });
+
 });
 
 
