@@ -11,15 +11,31 @@ prompt.start();
 prompt.get(['name', 'brewery', 'description', 'url', 'image'], function (err, result) {
 
   //Set image
-  result.image = S3_BASE + result.image;
+  if (result.image) {
+    result.image = S3_BASE + result.image;
+  }
 
   //Get the last index in the collection
   ref.child('beers').once('value', function (snapshot) {
-    var length = snapshot.val().length;
+    var val = snapshot.val();
+    var length = val.length;
+
+    if (!result.brewery) {
+      result.brewery = _.last(val).brewery;
+    }
+    if (!result.url) {
+      result.url = _.last(val).url;
+    }
 
     ref.child('beers').child(String(length)).set(result);
 
-    optimizeImages().then(uploadImages);
+    if (result.image) {
+      optimizeImages().then(uploadImages);
+    } else {
+      ref.once('value', function () {
+        process.exit();
+      });
+    }
   });
 
 });
