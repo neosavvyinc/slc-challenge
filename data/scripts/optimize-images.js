@@ -5,7 +5,7 @@
   var _ = require("lodash-node");
   var when = require("when");
 
-  var TARGET_WIDTH = 550;
+  var TARGET_WIDTH = 500;
 
   module.exports = function () {
     return when.promise(function (resolve, reject) {
@@ -34,7 +34,7 @@
             var myFile = path.join("data", "images", file);
             im.identify(myFile, function (err, features) {
               if (features && features.format.toLowerCase().indexOf("j") === 0) {
-                var commands = [myFile, '-quality', 50];
+                var commands = [myFile, '-quality', 45];
                 if (features.width > TARGET_WIDTH) {
                   commands = commands.concat(["-resize", TARGET_WIDTH]);
                 }

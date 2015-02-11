@@ -19,13 +19,23 @@ angular.module('slcChallengeApp', [
   'firebase.utils',
   'simpleLogin',
   'angular-growl',
-  'autocomplete'
-]).config(function (growlProvider) {
+  'autocomplete',
+  'angular-data.DSCacheFactory'
+]).config(function (growlProvider, DSCacheFactoryProvider) {
   growlProvider.globalTimeToLive({success: 1800, danger: 5000});
   growlProvider.globalDisableCloseButton(true);
   growlProvider.globalDisableIcons(true);
   growlProvider.globalDisableCountDown(true);
   growlProvider.globalPosition('top-center');
+
+  function toMs(minutes) {
+      return minutes * 60 * 1000;
+  }
+
+  DSCacheFactoryProvider.setCacheDefaults({
+    maxAge: toMs(15),
+    storageMode: 'localStorage'
+  });
 }).run(function ($rootScope, $location, growl) {
   $rootScope.$location = $location;
   $rootScope.headerLinks = {
