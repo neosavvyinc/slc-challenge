@@ -1,0 +1,29 @@
+.growl-container {
+  &.growl-fixed {
+    &.top-center {
+      text-align: center;
+      width: 300px;
+      margin-top: 200px;
+      margin-left: -150px;
+      text-transform: uppercase;
+      border-radius: 6px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+  }
+  .growl-item {
+    padding: 40px;
+    box-shadow: 4px 4px 10px #888888;
+    border: none;
+    opacity: .9;
+  }
+  .alert-success, .alert-danger {
+    color: #FFFFFF;
+  }
+  .alert-success {
+    background-color: $salt_lake_city_green;
+  }
+  .alert-danger {
+    background-color: $salt_lake_city_blue;
+  }
+}

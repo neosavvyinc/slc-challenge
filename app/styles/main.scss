@@ -8,6 +8,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "helpers/padding";
 @import "helpers/typography";
 @import "common/bootstrap_overrides";
+@import "common/growl";
 @import "views/login";
 @import "views/leader_board";
 @import "views/beer_list";

@@ -34,7 +34,7 @@ angular.module('slcChallengeApp')
     this.submit = function (e) {
       e.preventDefault();
       updateOnly.checkIn($scope.beer, _.pick(this.localState, ['bar', 'bartender', 'type'])).then(function () {
-        growl.success($scope.beer.name + ' checked in!', {ttl: -1});
+        growl.success($scope.beer.name + ' checked in!');
         $location.path('/');
       }).catch(globalErrorHandler);
     };
