@@ -34,6 +34,7 @@ angular.module('slcChallengeApp', [
 
   DSCacheFactoryProvider.setCacheDefaults({
     maxAge: toMs(15),
+    //@TODO, this may have trouble with some phones, keep an eye out
     storageMode: 'localStorage'
   });
 }).run(function ($rootScope, $location, growl) {

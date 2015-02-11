@@ -20,6 +20,14 @@ angular.module('slcChallengeApp')
         return checkIn && checkIn.bar && checkIn.bartender;
     };
 
+    //Watchers
+    var de = $scope.$watch('beer', function (val) {
+      if (val && !val.image) {
+        this.localState.checkInFields = true;
+        de();
+      }
+    }.bind(this));
+
     //Controller methods
     this.localState = {
       checkInFields: false

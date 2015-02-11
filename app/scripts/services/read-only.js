@@ -8,7 +8,7 @@
  * Factory in the slcChallengeApp.
  */
 angular.module('slcChallengeApp')
-  .factory('readOnly', function ($rootScope, $q, fbutil, simpleLogin) {
+  .factory('readOnly', function ($rootScope, $q, fbutil, simpleLogin, DSCacheFactory) {
 
     var readOnly = {};
 

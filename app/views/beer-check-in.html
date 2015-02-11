@@ -2,7 +2,8 @@
   <div class="col-xs-12">
     <h1 class="text-center text-uppercase">{{beer.name}}</h1>
 
-    <h2 class="bg-success text-center text-uppercase" ng-if="beerCheckInCtrl.checkInExists()">You checked in {{checkIn.time | momentFormat : 'dddd'}} at {{checkIn.time | momentFormat : 'h:mmA'}}</h2>
+    <h2 class="bg-success text-center text-uppercase" ng-if="beerCheckInCtrl.checkInExists()">You checked in
+      {{checkIn.time | momentFormat : 'dddd'}} at {{checkIn.time | momentFormat : 'h:mmA'}}</h2>
 
     <form class="form row margin-bottom-15-px" ng-submit="beerCheckInCtrl.submit($event)"
           ng-if="!beerCheckInCtrl.checkInExists()">
@@ -37,11 +38,12 @@
     </form>
 
     <div class="row margin-bottom-15-px">
-      <div class="col-md-6 col-xs-12">
+      <div class="col-md-6 col-xs-12 margin-bottom-30-px" ng-show="beer.image">
         <img src="{{beer.image}}"/>
       </div>
-      <div class="col-md-6 col-xs-12">
+      <div class="col-xs-12 margin-bottom-30-px" ng-class="beer.image ? 'col-md-6' : ''">
         <p>{{beer.description}}</p>
+        <small>*Image & Description From: <a href="{{beer.url}}" target="_blank">{{beer.brewery}}</a></small>
       </div>
     </div>
     <a class="btn btn-primary btn-lg btn-block text-uppercase" href="{{beer.url}}" target="_blank">Visit Website</a>
