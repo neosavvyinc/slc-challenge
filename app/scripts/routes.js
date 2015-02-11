@@ -122,7 +122,8 @@ angular.module('slcChallengeApp')
       .whenAuthenticatedWithUsername('/beers', {
         templateUrl: 'views/beer-list.html',
         controller: 'BeerListCtrl',
-        controllerAs: 'beerListCtrl'
+        controllerAs: 'beerListCtrl',
+        reloadOnSearch: false
       })
 
       .whenAuthenticatedWithUsername('/beers/:index', {

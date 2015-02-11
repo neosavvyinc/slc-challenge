@@ -8,9 +8,24 @@
  * Controller of the slcChallengeApp
  */
 angular.module('slcChallengeApp')
-  .controller('BeerListCtrl', function ($scope, $location, readOnly, memoize) {
+  .controller('BeerListCtrl', function ($scope, $location, $parse, readOnly, memoize) {
     readOnly.beers().$bindTo($scope, 'beers');
     readOnly.checkIns().$bindTo($scope, 'checkIns');
+
+    this.localState = {
+      searchTerm: $parse('searchTerm')($location.search())
+    };
+
+    //Watchers
+    $scope.$watch('beerListCtrl.localState.searchTerm', _.debounce(function (val) {
+      $scope.$apply(function () {
+        if (val) {
+          $location.search('searchTerm', val);
+        } else {
+          $location.search('searchTerm', null);
+        }
+      });
+    }, 200));
 
     //Controller Methods
     function sortObject(obj) {
@@ -24,10 +39,6 @@ angular.module('slcChallengeApp')
       }
       return obj;
     }
-
-    this.localState = {
-      searchTerm: ''
-    };
 
     this.goToBeer = function (idx) {
       $location.path('beers/' + String(idx));

@@ -1,0 +1,870 @@
+{
+  "beers" : [ {
+    "brewery" : "Uinta Brewing",
+    "description" : "DESCRIPTION: Rich and complex, this all malt barley wine exhibits hints of dried fruits, toffee and caramel balanced by an abundance of American hops. TASTING NOTES: Full malt taste, pleasant notes of nuts, chocolate, and dried fruit. Generously hoppy, delicately balancing the alcohol content. Finishes strong. Anniversary Barley Wine pairs well with cheeses such as blue cheese. STORY: First brewed in small batches annually to commemorate Uinta's anniversary, this soul-warming brew is now available year-round.",
+    "id" : "0",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/uinta_anniversary.png",
+    "name" : "Anniversary Barley Wine Ale",
+    "url" : "http://www.uintabrewing.com/brews.php"
+  }, {
+    "brewery" : "Uinta Brewing",
+    "description" : "DESCRIPTION: Malty in character, this brown ale has a smooth body and a clean, well-rounded finish. TASTING NOTES: Bristlecone Brown is malt-accented, but with a firm, nutty dryness and gentle fruitiness that is reminiscent of the classic English nut brown style. Bristlecone Brown Ale pairs well with duck, roast pork, grilled salmon and smoked sausages. Complements the flavors found in peanut sauces as in chicken satay. Explore pairing with nutty desserts and those with pears. STORY: No bristlecones were harmed in the production of this brew. Named as a tribute to the regal Great Basin Bristlecone pine. Among these stately survivors is the 4,765 year-old Methuselah, the oldest living inhabitant of North America. Its exact location is kept secret as an older relative nicknamed \"Prometheus\" was unfortunately cut down in 1964.",
+    "id" : "1",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/uinta_bristlecone.png",
+    "name" : "Bristlecone Brown Ale",
+    "url" : "http://www.uintabrewing.com/brews.php"
+  }, {
+    "brewery" : "Uinta Brewing",
+    "description" : "DESCRIPTION: This traditional style pale ale has a rich amber color, full malt body and a clean hop finish. TASTING NOTES: Malts and hops mingle harmoniously. Toasty caramel and molasses notes. Slightly fruity. Finishes dry and is highly refreshing. Because Cutthroat is a versatile beer, you can enjoy it with a variety of flavor profiles: spicy, bbq, burgers, wings, Mexican. STORY: The Cutthroat Trout is the state fish of Utah and believed to be named after Cutthroat Pale Ale, Utah's most popular craft brewed beer. (Ok, it is the other way around.).",
+    "id" : "2",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/uinta_cutthroat.png",
+    "name" : "Cutthroat Pale Ale",
+    "url" : "http://www.uintabrewing.com/brews.php"
+  }, {
+    "brewery" : "Uinta Brewing",
+    "description" : "NOTES: A scenic tour of hops, Detour Double IPA is bright and bold with lively hop character",
+    "id" : "3",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/uinta_detour.png",
+    "name" : "Detour Double IPA",
+    "url" : "http://www.uintabrewing.com/brews.php"
+  }, {
+    "brewery" : "Uintas Brewing",
+    "description" : "DESCRIPTION: Toasted, chocolaty dark malts align with an astronomical amount of hops. STORY: Named Utah's Centennial Star in 1996, Dubhe (pronounced Doo-bee) illuminates the front of the big dipper from 124 light years away. Dubhe, also known as Alpha Ursae Majoris, is a red giant that appears orange in color and has a mass 4x that of the sun.",
+    "id" : "4",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/uinta_dubhe.png",
+    "name" : "Dubhe Imperial Black IPA",
+    "url" : "http://www.uintabrewing.com/brews.php"
+  }, {
+    "brewery" : "Uinta Brewing",
+    "description" : "DESCRIPTION: A refreshing unfiltered American style wheat beer, this medium-bodied ale has a delicate hop character. TASTING NOTES: Pleasantly yeasty with malty influences. Notes of orange and lemon. Slight spiciness and floral quality. Lingering citrusy finish. Golden Spike Hefeweizen pairs well with citrus flavors; also with seafood such as mussels and clams. Also try it with cheeses such as feta, gruyere, and goat cheese. STORY: Golden Spike Hefeweizen was named in honor of the celebrated historic completion of the first transcontinental railroad in the United States. In May 1869 a ceremonial \"golden spike\" was used at the juncture of two facing locomotives--the Union Pacific No. 119 and Central Pacific No. 60 (better known as the Jupiter). Each locomotive represented the railroad lines laid from the Atlantic and Pacific oceans. The copper-alloyed gold spike was tapped into a pre-drilled hole and replaced by an ordinary spike soon afterwards. Each of the four sides of the golden spike was engraved, including one inscription that said, \\\"May God continue the unity of our Country, as this Railroad united the two great Oceans of the world.\\\"",
+    "id" : "5",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/uinta_golden_spike.png",
+    "name" : "Golden Spike Hefeweizen",
+    "url" : "http://www.uintabrewing.com/brews.php"
+  }, {
+    "brewery" : "Uinta Brewing",
+    "description" : "This crisp kolsch-style ale is golden in color and exhibits refreshing hop character. TASTING NOTES: Immediately refreshing with light hop character. Slightly bitter. Finishes dry. Hoodoo will pair well with sautéed shrimp, fresh fish seasoned with lemon, smoked salmon, grilled chicken, and bratwurst. STORY: A hoodoo is a tall, this spire of rock that protrudes from the bottom of a basin or badland that are mainly located in the dry, hot areas. Hoodoos can reach heights exceeding that of a 10- story building. So why the name of your beer you might be wondering…well, nowhere in the world are Hoodoos more abundant than right here in our home state, more specifically, in Bryce Canyon National Park.",
+    "id" : "6",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/uinta_hoodoo.png",
+    "name" : "Hoodoo Kolsch Style Ale",
+    "url" : "http://www.uintabrewing.com/brews.php"
+  }, {
+    "brewery" : "Uinta Brewing",
+    "description" : "DESCRIPTION: Bold and refreshing, this IPA combines an abundance of hops with a smooth malt profile. STORY: Embracing our inner foodie, Hop Nosh is so big in hop character that it is literally a hoppy snack.",
+    "id" : "7",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/uinta_hopnosh.png",
+    "name" : "Hop Nosh IPA",
+    "url" : "http://www.uintabrewing.com/brews.php"
+  }, {
+    "brewery" : "Uinta Brewing",
+    "description" : "DESCRIPTION: Roasted chocolate malts influence this full-flavored ale. This sessionable porter is black in color and well balanced. TASTING NOTES: Delicate hop character balances a mild bitterness. Hints of expresso and dark chocolate mixed with fruit. Mildly sweet. King's Peak pairs well with classic hearty, cold-weather dishes such as chili, stew, and roasts. Also pairs well with hearty dishes, and cheeses such as gruyere, emmenthaler, and swiss. Have a sweet tooth? Try King's Peak with chocolate and maple flavored desserts. STORY: Named after the highest point in the State of Utah at 13,528 feet, Kings Peak is located in the Uinta Mountains",
+    "id" : "8",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/uinta_kings_peak.png",
+    "name" : "King's Peak Porter",
+    "url" : "http://www.uintabrewing.com/brews.php"
+  }, {
+    "brewery" : "Uinta Brewing",
+    "description" : "DESCRIPTION: Light- bodied and refreshing, this crisp summer lager has a smooth body and a clean hop finish. TASTING NOTES: Malty taste and generously hopped. Citrus highlights. Finishes crisp and dry. Skipping Stone pairs well with spicy food, and dishes such as chicken satay and grilled sausages. Try it with cheeses such as havarti, muenster, and monterey jack.",
+    "id" : "9",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/uinta_skipping_stone.png",
+    "name" : "Skipping Stone Summer Lager",
+    "url" : "http://www.uintabrewing.com/brews.php"
+  }, {
+    "brewery" : "Uinta Brewing",
+    "description" : "DESCRIPTION: Noted for its bright hop character, this sessionable IPA is wonderfully balanced. TASTING NOTES: Strong hop character with some pine and floral influences. Finishes clean with a delicate malt flavor and a hint of citrus zest. Do not be afraid to pair Trader India Pale Ale with food. While traditionally paired with bold flavors found in Indian curries, Trader pairs well with seafood dishes such as fried calamari. STORY: The style of beer received its name in the 19th century when England controlled the country of India. With no refrigeration or pasteurization in those days, the British were challenged to brew a beer that would survive the long, hot trip to India and upon arrival, satisfy the British citizens and thirsty troops stationed there. In discovering that the hop flower is a natural preservative, the British brewed an ale with an abundant amount of hops, and it worked! Hundreds of years later, the style is still the favorite of many a craft brew drinker.",
+    "id" : "10",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/uinta_trader_session.png",
+    "name" : "Trader Session IPA",
+    "url" : "http://www.uintabrewing.com/brews.php"
+  }, {
+    "brewery" : "Uinta Brewing",
+    "description" : "DESCRIPTION: This full-flavored amber lager delivers a complex, toasted malt body and noble hop character. TASTING NOTES: Honey and caramel undercurrents. Vanilla accents. Malty with light and hoppy notes. Finishes dry. Yard Sale pairs well with earthy mushroom bisque, grilled lamb or pork, and even mussels and clams. STORY: \\\"Yard Sale\\\" is skier slang for when a skier falls down on a slope and loses his gear which ends up scattered down the mountain.",
+    "id" : "11",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/uinta_yard_sale.png",
+    "name" : "Yard Sale Winter Lager",
+    "url" : "http://www.uintabrewing.com/brews.php"
+  }, {
+    "brewery" : "Uinta Brewing",
+    "description" : "DESCRIPTION: Light- bodied and refreshing, this quaffable Pilsner is crisp with a smooth body and a clean hop profile. STORY: Uinta is a long-time supporter of grass-root efforts and non-profit organizations. As a tribute to our home town, 801 signifies Uinta’s on-going commitment to the Utah community and gives our local fans a chance to get involved too. Every sip helps",
+    "id" : "12",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/uinta_801_pilsner.png",
+    "name" : "801 Pilsner",
+    "url" : "http://www.uintabrewing.com/brews.php"
+  }, {
+    "brewery" : "Uinta Brewing",
+    "description" : "DESCRIPTION: Robust and smooth, this full-flavored lager is exceptionably drinkable and pitch black in color. STORY: \\\"Baba Black Sheep...\\\", and the rest is history.",
+    "id" : "13",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/uinta_baba.png",
+    "name" : "Baba Black Lager",
+    "url" : "http://www.uintabrewing.com/brews.php"
+  }, {
+    "brewery" : "Uinta Brewing",
+    "description" : "DESCRIPTION: This amber wheat ale has a balanced malt body, hints of coriander, and bright hop character. STORY: Isn't she lovely.",
+    "id" : "14",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/uinta_hazel.png",
+    "name" : "Hazel Amber Wheat Ale",
+    "url" : "http://www.uintabrewing.com/brews.php"
+  }, {
+    "brewery" : "Uinta Brewing",
+    "description" : "DESCRIPTION: This medium-bodied golden ale is brewed with local wildflower honey. TASTING NOTES: Full-flavored beer. Rich. Robust. Bittersweet beginning. Quickly mellows, leaving the palate with a subtle hint of honey. Hive pairs well with cedar-plank salmon, and, if you have a sweet tooth, baklava.",
+    "id" : "15",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/uinta_hyve.png",
+    "name" : "Hyve Honey Ale",
+    "url" : "http://www.uintabrewing.com/brews.php"
+  }, {
+    "brewery" : "Uinta Brewing",
+    "description" : "DESCRIPTION: Belgian yeast and American grains provide the distinct character and flavors of this blonde ale. TASTING NOTES: Behold the tangy influences of the yeast, assertive malt, and light, hoppy flavor. Illusional confessions of allspice and fruit. The tang from this Belgian style ale pairs well with roasted chicken with herbs and with spicy Indian flavors.",
+    "id" : "16",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/uinta_monkshine.png",
+    "name" : "Monkshine Belgian Style Blonde Ale",
+    "url" : "http://www.uintabrewing.com/brews.php"
+  }, {
+    "brewery" : "Uinta Brewing",
+    "description" : "DESCRIPTION: This sessionable pumpkin ale is brewed with fresh pumpkin and seasonal spices. TASTING NOTES: Malt and hops accented with roasted pumpkin and spices of the season. A subtle hint of vanilla and honey. Punk'n is a wonderful compliment to foods with nutmeg, cinnamon, and clove flavors. Try it with roasted turkey, squash or pumpkin ravioli, peach cobbler, or pumpkin cheesecake.",
+    "id" : "17",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/uinta_punkn.png",
+    "name" : "Punk'n Harvest Pumpkin Ale",
+    "url" : "http://www.uintabrewing.com/brews.php"
+  }, {
+    "brewery" : "Uinta Brewing",
+    "description" : "DESCRIPTION: Citrusy and thirst-quenching, this refreshing golden ale is highlighted by the use of unique hops. TASTING NOTES: Appealing Sorachi hops, an uncommon hop from Japan, balanced with lighter malts. Citrusy, fresh, clean. Sum'r Organic Summer Ale pairs well with summer. It is an easy companion to most foods on the summer grill, such as chicken, fish, and burgers. Pairs well with curries and spicy foods. Try it with sushi!",
+    "id" : "18",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/uinta_sumr.png",
+    "name" : "Sum'r Summer Ale",
+    "url" : "http://www.uintabrewing.com/brews.php"
+  }, {
+    "brewery" : "Uinta Brewing",
+    "description" : "DESCRIPTION: A lighter bodied pale ale, this EPA is aggressively dry hopped to showcase fresh hop flavors and aromas. TASTING NOTES: Begins with slight malt flavor with a subtle sweetness. Hop character pounces with citrus and pine notes. Finishes dry with an infusion of sweet hoppiness. (Happiness, too.) Go wild with food pairings. Wyld is versatile and partners well with burgers, pork loin , grilled steak and poultry. Delicious with salmon—grilled or smoked. Try Wyld with a slice of romano cheese.",
+    "id" : "19",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/uinta_wyld.png",
+    "name" : "Wyld Extra Pale Ale",
+    "url" : "http://www.uintabrewing.com/brews.php"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "A refreshing Colorado Rockies lager with a German Pilsner Malt backbone. The subtle malt flavor is balanced with spicy and herbal noble hops and the finish is crisp and clean. 5.3% ABV. Glassware: Pilsner. Food Pairings: Hearty, spicy foods and barbeque.",
+    "id" : "20",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_blueski.jpg",
+    "name" : "Blue Ski Lager",
+    "url" : "http://www.epicbrewing.com/the-beers/classic-series/item/775-blue-ski-lager"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "This is a bold and unpretentious beer born out of the River North Neighborhood. Combining premium English Maris Otter malt with German Specialty grains and Pacific Northwest Hops this Pale Ale is complex, and robust but also very easy going. 5.8% ABV. Glassware: Pint. Food Pairings: Barbequed meats, cheddar cheese and sweet desserts. This mural, by graffiti and tattoo artist \"THiNK426\" can be found within a block of the brewery. The digital image was photographed by \"The Anarchivist\" (Gary Glasser) whose massive collection of digital works focuses on the \"ever changing world of graffiti and mural art\" along The Front Range.",
+    "id" : "21",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_rino.jpg",
+    "name" : "RiNO Pale Ale",
+    "url" : "http://www.epicbrewing.com/the-beers/classic-series/item/774-rino-pale-ale"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "One sip and you'll get the gist. This special hop-forward ale featuring Mosaic and whole leaf Apollo is both fruity and dank. We hope you enjoy our hoppy twist on the taste of freedom. 6.2% ABV. Glassware: Pint. Food Pairings: Strong, spicy foods and bold, sweet desserts.",
+    "id" : "22",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_escape.jpg",
+    "name" : "Escape to Colorado IPA",
+    "url" : "http://www.epicbrewing.com/the-beers/classic-series/item/773-escape-to-colorado-ipa"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "Our lightest in terms of alcohol comes in at 4.8% by volume so that malt can dominate the flavor profile.  Caramel sweet malt all over the palate with a noticeable “jumping just over the barrier” citrus hop aroma.  Surprisingly refreshing for such a malt driven ale.  Truly an all season American Amber. Glassware: Pint. Food Pairings: Chicken, seafood, and spicy meats.",
+    "id" : "23",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_cross.jpg",
+    "name" : "Cross Fever Amber Ale",
+    "url" : "http://www.epicbrewing.com/the-beers/classic-series/item/16-cross-fever-amber-ale"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "Made with classic Pacific Northwest Cascade, Centennial, Mt. Hood in the boil and dry hopped with more Cascade hops. Cascade aroma dominates the nose, so be sure to sniff it like a wine snob. Plenty of ultra-premium Maris Otter malt and three specialty malts give the beer a nice smooth sailing biscuit like aroma and body with some sweetness. Glassware: Pint. Food Pairings: Barbequed meats, cheddar cheese and sweet desserts.",
+    "id" : "24",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_cromptons.jpg",
+    "name" : "Capt'n Crompton's Pale Ale",
+    "url" : "http://www.epicbrewing.com/the-beers/classic-series/item/5-captn-cromptons-pale-ale"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "A full strength and quaffable American lager with a hint of European flavor. Pfeifferhorn lager has a subtle malt flavor, and clean, crisp finish. A fine spicy and slightly herbal noble hop profile which barely lingers on the palate, 5.3% alcohol by volume. Glassware: Pilsner. Food Pairings: Hearty, spicy foods and barbeque.",
+    "id" : "25",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_pfeifferhorn.jpg",
+    "name" : "Pfeifferhorn Lager Beer",
+    "url" : "http://www.epicbrewing.com/the-beers/classic-series/item/4-pfeifferhorn-lager-beer"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "A dark, full-bodied and drinkable beer, Galloway Porter highlights rich roasted chocolate and coffee-like malt flavors and aromas. It has a very mild hop addition so that the chocolate malt flavor can shine through. Glassware: Pint. Food Pairings: Roasted or smoked foods, barbeque, chocolate and peanut butter desserts.",
+    "id" : "26",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_galloway.jpg",
+    "name" : "Galloway Porter",
+    "url" : "http://www.epicbrewing.com/the-beers/classic-series/item/3-galloway-porter"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "Spiral Jetty India Pale Ale is the launching point in our series of hoppy IPA brews. Spiral Jetty IPA has an aggressive hop profile (five different hops used here with two in the dry hop) presenting citrus, floral, resinous or pine aromas and flavors typical of American hops and a nice pleasant, cleansing bitterness on the finish. The dominance of the hops helps to balance the complex malt flavors and the higher alcohol content. Spiral Jetty is our strongest Classic Series ale at 6.6% alcohol by volume, but certainly not our strongest beer. Glassware: Pint. Food Pairings: Strong, spicy foods and bold, sweet desserts.",
+    "id" : "27",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_spiral_jetty.jpg",
+    "name" : "Spiral Jetty IPA",
+    "url" : "http://www.epicbrewing.com/the-beers/classic-series/item/2-spiral-jetty-ipa"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "An American Wheat Beer, no banana or clove in this one: highly drinkable, unfiltered, \"session-able.\" Easy to drink, nice zest and lemon citrus flavors and aromas from the hops balanced with slight malt sweetness and just a little kick of sour from the wheat. Glassware: Pilsner. Food Pairings: Light salads, sushi, vegetable dishes and fresh fruit.",
+    "id" : "28",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_intermountain.jpg",
+    "name" : "Intermountain Wheat Beer",
+    "url" : "http://www.epicbrewing.com/the-beers/classic-series/item/1-intermountain-wheat-beer"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "Hopulent IPA is a big beer with lots of complex malt flavor and excessive hops. This beer will have changes to the grain bill and seasonal hop changes. The character of Hopulent IPA is over the top, too much of everything—a real HOP HEADS DELIGHT! Glassware: Pint, Tulip, Snifter. Food Pairings: Smoked or grilled meats, sharp cheeses, and very sweet desserts.",
+    "id" : "29",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_hopulent.jpg",
+    "name" : "Hopulent IPA",
+    "url" : "http://www.epicbrewing.com/the-beers/elevated-series/item/618-hopulent-ipa"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "Copper Cone Pale Ale is a special offering: an aroma rich pale ale that may vary the hops, malts and even sometimes the yeast used. Typically this beer is an \"over the top\" pale ale with a deep copper color and loads of dry hopping going into each batch. The fresh hop aroma of this beer makes it a stand out. Glassware: Pint. Food Pairings: Barbequed meats, cheddar cheese and sweet desserts.",
+    "id" : "30",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_copper_cone.jpg",
+    "name" : "Copper Cone Pale Ale",
+    "url" : "http://www.epicbrewing.com/the-beers/elevated-series/item/617-copper-cone-pale-ale"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "Brainless® Belgian-Style Golden Ale has a rich and complex malt flavor balanced with a little bit of spicy noble hops and strong influences of fermentation esters from the Belgian yeast used. Various Belgian-like Rock Candies, hops and grains are employed to express variations within the style. Deceivingly drinkable, some liken these ales to the Devil sneaking up on you, so consume responsibly. Glassware: Tulip. Food Pairings: Spicy foods, seafood, fatty meats, and fruity desserts.",
+    "id" : "31",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_brainless.jpg",
+    "name" : "Brainless Belgian-Style Golden Ale",
+    "url" : "http://www.epicbrewing.com/the-beers/elevated-series/item/616-brainless-belgian-style-golden-ale"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "This stout can range from dry to sweet, creamy or bitter. Flavors Epic explores within this stout are roast chocolate, toffee, mocha, coffee, burnt marshmallow and roasted nuts or combinations there-of. Glassware: Pint. Food Pairings: Rich, spicy food, barbeque, Mexican mole dishes, hearty Szechuan and dark chocolate desserts.",
+    "id" : "32",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_825_state.jpg",
+    "name" : "825 State Stout",
+    "url" : "http://www.epicbrewing.com/the-beers/elevated-series/item/615-825-state-stout"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "Hints of raspberry bubble gum flavors from the Belgian yeast and fresh raspberries tease the pallet in this Brainless® offering. Glassware: Snifter, Tulip White Wine. Food Pairings: Hard cheeses, salads, and dark chocolate desserts.",
+    "id" : "33",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_brainless_raspberries.jpg",
+    "name" : "Brainless Raspberries",
+    "url" : "http://www.epicbrewing.com/the-beers/exponential-series/item/644-brainless-raspberries"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "Our Brainless® IPA pays tribute to the collaborative efforts of innovative brewers. The fruity Belgian yeast and powerful American hops relentlessly tease your pallet. Glassware: Pint, Snifter, Tulip. Food Pairings: Smoked or grilled meats, spicy foods, sharp cheeses, and very sweet desserts.",
+    "id" : "34",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_brainless_ipa.jpg",
+    "name" : "Brainless IPA",
+    "url" : "http://www.epicbrewing.com/the-beers/exponential-series/item/643-brainless-ipa"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "The Blue Law Porter celebrates Utah's State Tree, the Blue Spruce. The spruce tips used are hand-picked from the grounds of Utah's State Capitol building where blue laws, like spruce tips, emerge each year! Glassware: Pint, Snifter. Food Pairings: Beef/pork tenderloin, spare ribs, and dark chocolate desserts.",
+    "id" : "35",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_blue_law_porter.jpg",
+    "name" : "Blue Law Porter",
+    "url" : "http://www.epicbrewing.com/the-beers/exponential-series/item/642-blue-law-porter"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "You won't find any astringent sorghum in this beer. Instead we use light-bodied millet, brown rice, sweet potatoes and molasses along with plenty of American hops. This beer has a golden color, aromas of hops and sweet potatoes with a sweet grain flavor and a clean, sorghum-free finish. A gluten-free beer for everybody! Glassware: Pint, Snifter, White Wine. Food Pairings: Lighter foods including salads, chicken and fish.",
+    "id" : "36",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_glutenator.jpg",
+    "name" : "Glutenator",
+    "url" : "http://www.epicbrewing.com/the-beers/exponential-series/item/641-glutenator"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "An Epic interpretation of the recent American trend of brewing Black IPAs, our Santa Cruz Brown is a true hybrid. Inspired by our brewer Kyle's desire to have it all! Glassware: Pint. Food Pairings: Spicy sausage or pork, grilled salmon, aged cheeses, and nutty desserts.",
+    "id" : "37",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_santa_cruz.jpg",
+    "name" : "Santa Cruz Brown Ale",
+    "url" : "http://www.epicbrewing.com/the-beers/exponential-series/item/640-santa-cruz-brown-ale"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "Epic Brewing Company's latest barrel-aged beer brings something new—wild yeast. This brew is a collaboration ale with Crooked Stave Artisan Brewing of Fort Collins, Colorado. Chad Yakobson, Brewmaster/Owner of Crooked Stave, is well known for his skill and knowledge in the brewing of sour and Brettanomyces driven beers. The beer was brewed at Epic by the two brewers. Kevin Crompton, Epic's Brewmaster, and Chad spent several weeks working on the recipe and selecting the proper Brett strains and barrels for the beer to morph from a golden Saison into a Saison-Brett Golden Ale. Glassware: Tulip, Pint, White Wine. Food Pairings: Strong, aged cheeses and egg dishes.",
+    "id" : "38",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_elder_brett.jpg",
+    "name" : "Elder Brett",
+    "url" : "http://www.epicbrewing.com/the-beers/exponential-series/item/639-elder-brett-saison-brett-golden-ale"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "Three out of the four ingredients in Simon and Garfunkel's third album make this Belgian-style farmhouse ale a perfect golden beverage with festive herbal notes. Glassware: Tulip, Pint. Food Pairings: Savory and fatty meats.",
+    "id" : "39",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_utah_sage.jpg",
+    "name" : "Utah Sage Saison",
+    "url" : "http://www.epicbrewing.com/the-beers/exponential-series/item/638-utah-sage-saison"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "Originally brewed as liquid bread by fasting monks, this doppelbock is rich and filling. Crisp and delicious for the winter months. Glassware: Pilsner. Food Pairings: Rich, roasted foods, cured meats and dark chocolate desserts.",
+    "id" : "40",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_double_skull.jpg",
+    "name" : "Double Skull Doppelbock",
+    "url" : "http://www.epicbrewing.com/the-beers/exponential-series/item/637-double-skull-doppelbock"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "An Imperial Pumpkin Porter to celebrate the season. Glassware: Pint, Snifter. Food Pairings: Savory and fatty meats and dark chocolate desserts.",
+    "id" : "41",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_fermentation_without_rep.jpg",
+    "name" : "Fermentation Without Representation",
+    "url" : "http://www.epicbrewing.com/the-beers/exponential-series/item/636-fermentation-without-representation"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "One Big Bad Imperial Stout with Cocoa nibs and Coffee beans. Each season's release uses a different dark roasted coffee. Glassware: Snifter, Tulip White Wine. Food Pairings: Hard cheeses and dark chocolate desserts.",
+    "id" : "42",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_big_bad_baptist.jpg",
+    "name" : "Big Bad Baptist Imperial Stout",
+    "url" : "http://www.epicbrewing.com/the-beers/exponential-series/item/635-big-bad-baptist-imperial-stout"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "A deliciously hoppy lager, this clean, spicy, yet fruity addition is sure to quench your summer palate just right! Glassware: Pint, Pilsner. Food Pairings: Hearty, spicy foods, barbequed meats and soft cheeses.",
+    "id" : "43",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_hop_syndrome.jpg",
+    "name" : "Hop Syndrome Lager",
+    "url" : "http://www.epicbrewing.com/the-beers/exponential-series/item/634-hop-syndrome-lager"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "Think freshly baked rye bread in a bottle with just a hint of lemon and spices from the hops and yeast. Both wheat-y and spicy with a light silky texture. Glassware: Pint. Food Pairings: Salads, barbequed meats and hard cheeses.",
+    "id" : "44",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_rios_rompin.jpg",
+    "name" : "Rio's Rompin' Rye Ale",
+    "url" : "http://www.epicbrewing.com/the-beers/exponential-series/item/633-rio-s-rompin-rye-ale"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "This massive Stout pours a mahogany black with a thick, brown head. The aroma is all chocolate and toasted malt. The first wave of flavor embraces anise and dark, bitter chocolate but opens up to include coffee, smoke and rich sweet malt. Glassware: Pint, Snifter. Food Pairings: Long-aged cheeses and dark chocolate desserts.",
+    "id" : "45",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_imperial_stout.jpg",
+    "name" : "Imperial Stout",
+    "url" : "http://www.epicbrewing.com/the-beers/exponential-series/item/632-imperial-stout"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "We took our double gold medal winning Brainless® Belgian, added cherry puree and aged it in French red wine casks (Cabernet and Syrah) for a secondary fermentation. It pours a beautiful deep ruby color with a medium white head. A nice nose of sweet cherries, Belgian malts, and barrel aging. Glassware: Snifter, Tulip, White Wine. Food Pairings: Pork tenderloin, Mexican foods and dark chocolate desserts.",
+    "id" : "46",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_brainless_on_cherries.jpg",
+    "name" : "Brainless On Cherries",
+    "url" : "http://www.epicbrewing.com/the-beers/exponential-series/item/631-brainless-on-cherries"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "The first sip of this brilliant, red-brown beer reveals a robust mouth feel and complex flavors including raisin, dark bread, some sherry flavors sure to increase with age. With the finish comes the flavor of Columbus hops followed by the alcohol warmth that can be felt down your throat. Glassware: Snifter, Pint. Food Pairings: Strong cheeses and rich, sweet desserts.",
+    "id" : "47",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_barley_wine.jpg",
+    "name" : "Barley Wine",
+    "url" : "http://www.epicbrewing.com/the-beers/exponential-series/item/630-barley-wine"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "Brewed with barley, oats and wheat, this hazy yellow offering's silky texture is offset by its high level of carbonation. More spice complexity and malt sweetness refresh the tongue as the wheat and yeast work together to finish dry and slightly sour. Glassware: Tulip, Pint. Food Pairings: Salads, light meat dishes with pork and chicken.",
+    "id" : "48",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_straight_up.jpg",
+    "name" : "Straight Up Saison",
+    "url" : "http://www.epicbrewing.com/the-beers/exponential-series/item/629-straight-up-saison"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "This extremely pleasant to drink ale has very minimal hop addition. The delicate Mt. Hood hops give it a smooth body with a bit of nuttiness and slightly sweet malt finish. This sessionable ale has some wonderful vanilla and honey notes that are well balanced throughout the drink. Glassware: Pint. Food Pairings: Chicken, seafood, beef and sweet desserts.",
+    "id" : "49",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_mid_mountain.jpg",
+    "name" : "Mid Mountain Mild Ale",
+    "url" : "http://www.epicbrewing.com/the-beers/exponential-series/item/628-mid-mountain-mild-ale"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "Sweet, yet dry and tart, apples spiced with coriander, grains of paradise, anise, nutmeg, cloves, cinnamon, cardamom, ginger. There is no wrong way to enjoy this Saison Belgian Style Farmhouse Ale! Glassware: Tulip, Pint. Food Pairings: Savory and fatty meats, salads, and tart desserts.",
+    "id" : "50",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_sour_appl.jpg",
+    "name" : "Sour Apple Saison",
+    "url" : "http://www.epicbrewing.com/the-beers/exponential-series/item/627-sour-apple-saison"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "Slightly higher in alcohol content than traditional Wits, ours is brewed using wheat, oats, authentic Belgian yeast, malts and just a sprinkle of hops. Spices include coriander, sweet and bitter orange peel and grains of paradise. Glassware: Pint, Pilsner. Food Pairings: Lighter seafood dishes, mussels, herbed cheeses, and fruity desserts.",
+    "id" : "51",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_wit_beer.jpg",
+    "name" : "Wit Beer",
+    "url" : "http://www.epicbrewing.com/the-beers/exponential-series/item/626-wit-beer"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "The Fest Devious line will be similar to Epic's Exponential Line in that the beers will be limited batches of highly creative recipes designed for the Fall Seasons palate. Glassware: Pint. Food Pairings: Spicy foods, Mexican dishes, fruity and nutty desserts.",
+    "id" : "52",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_fest_devious.jpg",
+    "name" : "Fest Devious",
+    "url" : "http://www.epicbrewing.com/the-beers/exponential-series/item/625-fest-devious"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "Smoked cherry wood malt brings a smoky sweetness to the caramel malts and a bit of peat flavor with Belgian-style yeast. The entire batch aged in whiskey barrels dries out the perceived sweetness of the caramel malt leaving an almost scotch like taste. Glassware: Snifter, Tulip, White Wine. Food Pairings: Dark chocolate and other desserts.",
+    "id" : "53",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_smoked_oaked.jpg",
+    "name" : "Smoked and Oaked",
+    "url" : "http://www.epicbrewing.com/the-beers/exponential-series/item/623-smoked-and-oaked"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "This nostalgic porter evokes memories of chocolate and coffee around a campfire. The cherry wood smoked malt used in this beer gives it a heavy smokiness that blends smoothly into the chocolate malty body. With a silky finish this porter is ideal for sipping on a cold winter's eve. Glassware: Pint. Food Pairings: Barbeque and smoked meats.",
+    "id" : "54",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_smoked_porter.jpg",
+    "name" : "Smoked Porter",
+    "url" : "http://www.epicbrewing.com/the-beers/exponential-series/item/622-smoked-porter"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "We took our double gold medal winning Brainless® Belgian, added peach puree and aged it in French Chardonnay casks. It develops nicely as it warms displaying more fruit and wine. Glassware: Snifter, Tulip, White Wine. Food Pairings: Seafood, spicy Thai food, fruit cobbler, and chocolate.",
+    "id" : "55",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_brainless_on_peaches.jpg",
+    "name" : "Brainless On Peaches",
+    "url" : "http://www.epicbrewing.com/the-beers/exponential-series/item/621-brainless-on-peaches"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "This beer is the epitome of Epic's IPAs. This hard hitting brew manages to pack a punch while still providing that fantastically complex IPA flavor. Slightly floral aromas hit the nose while resinous flavors dominate the body, finishing with the ideal palate cleansing bitterness. Glassware: Snifter, Tulip. Food Pairings: Smoked or grilled meats, sharp cheeses, and very sweet desserts.",
+    "id" : "56",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_imperial_ipa.jpg",
+    "name" : "Imperial IPA",
+    "url" : "http://www.epicbrewing.com/the-beers/exponential-series/item/620-imperial-ipa"
+  }, {
+    "brewery" : "Epic Brewing Company",
+    "description" : "Boldly flavored double red ale that combines caramel malt for sweetness mixed with plenty of dry and late kettle hop aromas from three killer American strains Glassware: Snifter, Pint. Food Pairings: Chicken, seafood, spicy meats.",
+    "id" : "57",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/epic_imperial_red.jpg",
+    "name" : "Imperial Red",
+    "url" : "http://www.epicbrewing.com/the-beers/exponential-series/item/619-imperial-red"
+  }, {
+    "brewery" : "Park City Brewery",
+    "description" : "",
+    "id" : "58",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/park_city_last_pitch.jpg",
+    "name" : "Last Pitch IPA",
+    "url" : "http://www.utahbeer.blogspot.com/2015/02/park-city-brewery-is-now-on-line.html"
+  }, {
+    "brewery" : "Park City Brewery",
+    "description" : "",
+    "id" : "59",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/park_city_boogie_water.jpg",
+    "name" : "Boogie Water Brown Ale",
+    "url" : "http://www.utahbeer.blogspot.com/2015/02/park-city-brewery-is-now-on-line.html"
+  }, {
+    "brewery" : "Park City Brewery",
+    "description" : "",
+    "id" : "60",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/park_city_hooker.jpg",
+    "name" : "Hooker Blond Ale",
+    "url" : "http://www.utahbeer.blogspot.com/2015/02/park-city-brewery-is-now-on-line.html"
+  }, {
+    "brewery" : "Park City Brewery",
+    "description" : "",
+    "id" : "61",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/park_city_breaking_trail.jpg",
+    "name" : "Breaking Trail Pale Ale",
+    "url" : "http://www.utahbeer.blogspot.com/2015/02/park-city-brewery-is-now-on-line.html"
+  }, {
+    "brewery" : "Wasatch Brewery",
+    "description" : "Legend has it Ghostrider roams Utah's Wasatch Range seeking revenge: “someone” lost his White IPA recipe. Smooth and crisp, it's made from pale barley and citrusy hops. It's too good to hide!",
+    "id" : "62",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/wasatch_ghostrider.jpg",
+    "name" : "Ghostrider White IPA",
+    "url" : "https://www.wasatchbeers.com/beers.aspx"
+  }, {
+    "brewery" : "Wasatch Brewery",
+    "description" : "If you're going to sin, sin big. With 8% alc/vol and a creamy richness, this brew has developed a serious cult following. Imagine that - a cult following in Utah?!",
+    "id" : "63",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/wasatch_devastator.jpg",
+    "name" : "Devastator Double Bock",
+    "url" : "https://www.wasatchbeers.com/beers.aspx"
+  }, {
+    "brewery" : "Wasatch Brewery",
+    "description" : "What a better use for an apple? Slathered in caramel? Baked into a mushy pie? Surely not!! In fact, the highest calling for an apple is right here in our apple ale. So drink up - and savor the harvest!",
+    "id" : "64",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/wasatch_apple_a_day.jpg",
+    "name" : "Apple-A-Day Apple Ale",
+    "url" : "https://www.wasatchbeers.com/beers.aspx"
+  }, {
+    "brewery" : "Wasatch Brewery",
+    "description" : "You were first one down. TCongrats - you got all that sweet powder. We hope you savored every moment. Because tomorrow's another day. And we're going to beat you to it. ",
+    "id" : "65",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/wasatch_first_one_down.jpg",
+    "name" : "First One Down Winter Warmer Ale",
+    "url" : "https://www.wasatchbeers.com/beers.aspx"
+  }, {
+    "brewery" : "Wasatch Brewery",
+    "description" : "They travel at close to 100 mph, deep within a twisted gauntlet of ice. To honor these renegades, we brew Bobsled Nut Brown Ale - a lightly hopped beer that goes down really fast! ",
+    "id" : "66",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/wasatch_bobsled.jpg",
+    "name" : "Bobsled Nut Brown Ale",
+    "url" : "https://www.wasatchbeers.com/beers.aspx"
+  }, {
+    "brewery" : "Wasatch Brewery",
+    "description" : "They were dangled before us: big, beautiful, luscious apricots Our minds said No, but our bodies said, Yes. As usual, we gave in to temptation - and created this delicious brew!",
+    "id" : "67",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/wasatch_apricot.jpg",
+    "name" : "Apricot Hefeweizen",
+    "url" : "https://www.wasatchbeers.com/beers.aspx"
+  }, {
+    "brewery" : "Wasatch Brewery",
+    "description" : "The fossil record proves one thing: that beer alone is responsible for the evolutionary leap from ape to man. This malty Amber is our tribute to Charles Darwin, evolution and perfection. Enjoy!",
+    "id" : "68",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/wasatch_evolution.jpg",
+    "name" : "Evolution Amber Ale",
+    "url" : "https://www.wasatchbeers.com/beers.aspx"
+  }, {
+    "brewery" : "Wasatch Brewery",
+    "description" : "Why have just one? Polygamy Porter is a smooth, chocolately, easy-drinkin' brown porter that's more than a little naughty. Take some home to the wives!",
+    "id" : "69",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/wasatch_polygamy_porter.jpg",
+    "name" : "Polygamy Porter",
+    "url" : "https://www.wasatchbeers.com/beers.aspx"
+  }, {
+    "brewery" : "Wasatch Brewery",
+    "description" : "It's a fun, frolicky Pilsner that's sure to please. Enjoy a Provo Girl anytime you get the notion - at the river, in a tent or even in a toolshed!",
+    "id" : "70",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/wasatch_provo_girl.jpg",
+    "name" : "Provo Girl Pilsner",
+    "url" : "https://www.wasatchbeers.com/beers.aspx"
+  }, {
+    "brewery" : "Wasatch Brewery",
+    "description" : "This lager is our homage to one of Utah's favorite traditions - raging houseboat parties on Lake Powell. Crisp and refreshing, it's perfect for hot days, warm summer night - and groggy mornings. ",
+    "id" : "71",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/wasatch_last_one_in.jpg",
+    "name" : "Last One In Lager",
+    "url" : "https://www.wasatchbeers.com/beers.aspx"
+  }, {
+    "brewery" : "Wasatch Brewery",
+    "description" : "We love raspberries. We love beer. Joining the two seemed natural, and like other natural things to do, it spawned something beautiful. You'll love getting to know this member of the Wasatch family! ",
+    "id" : "72",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/wasatch_raspberry_wheat.jpg",
+    "name" : "Raspberry Wheat",
+    "url" : "https://www.wasatchbeers.com/beers.aspx"
+  }, {
+    "brewery" : "Wasatch Brewery",
+    "description" : "Grownups need treats too, and our pumpkin ale is just the trick. Careful though — this malty amber has more than a hint of pumpkin, and might just put a spell on you. ",
+    "id" : "73",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/wasatch_pumpkin.jpg",
+    "name" : "Pumpkin Seasonal",
+    "url" : "https://www.wasatchbeers.com/beers.aspx"
+  }, {
+    "brewery" : "Wasatch Brewery",
+    "description" : "Alone in his laboratory one stormy night, a madman crossed an imperial stout with pumpkin to create this fine frankenbrew. How good is it? Well, scary good.",
+    "id" : "74",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/wasatch_black_o_lantern.jpg ",
+    "name" : "Black O'Lantern Pumpkin Stout",
+    "url" : "https://www.wasatchbeers.com/beers.aspx"
+  }, {
+    "brewery" : "Vernal Brewing Company",
+    "description" : "Straw colored, lightest beer we offer, crisp and refreshing, low hop profile (Pairs well with fish and poultry).",
+    "id" : "75",
+    "image" : "",
+    "name" : "Little Hole Lager",
+    "url" : "http://www.vernalbrewingco.com/vbc-beer.html"
+  }, {
+    "brewery" : "Vernal Brewing Company",
+    "description" : "Light in color, dark golden, unfiltered, traditional German wheat. Notes of clove, banana, citrus that come from yeast, low hop profile (Pairs well with salads, pizza, pasta with red sauce).",
+    "id" : "76",
+    "image" : "",
+    "name" : "HEF",
+    "url" : "http://www.vernalbrewingco.com/vbc-beer.html"
+  }, {
+    "brewery" : "Vernal Brewing Company",
+    "description" : "Unfiltered wheat, strong peach flavor with other fruit flavors, low hop profile. (Pairs well with desserts).",
+    "id" : "77",
+    "image" : "",
+    "name" : "Peach Wheat",
+    "url" : "http://www.vernalbrewingco.com/vbc-beer.html"
+  }, {
+    "brewery" : "Vernal Brewing Company",
+    "description" : "Low hop profile, very malty and sweet. Amber in color. (Pairs well with pizza, red meat, poultry).",
+    "id" : "78",
+    "image" : "",
+    "name" : "Alosauros Amber",
+    "url" : "http://www.vernalbrewingco.com/vbc-beer.html"
+  }, {
+    "brewery" : "Vernal Brewing Company",
+    "description" : "Bitter hoppy finish, dark redish brown in color, some citrus notes on nose. Darker colors come from caramel malts. (Pairs well with spicy food, pork, red meat).",
+    "id" : "79",
+    "image" : "",
+    "name" : "Pilgrimage Pale Ale",
+    "url" : "http://www.vernalbrewingco.com/vbc-beer.html"
+  }, {
+    "brewery" : "Vernal Brewing Company",
+    "description" : "Slightly bitter hoppiness with balanced malt flavors, Irish red style (like Killian’s Red). Amber in color with red hues. (Pairs well with Burgers (red meats) and spicy foods).",
+    "id" : "80",
+    "image" : "",
+    "name" : "Rigor Mortis Red",
+    "url" : "http://www.vernalbrewingco.com/vbc-beer.html"
+  }, {
+    "brewery" : "Vernal Brewing Company",
+    "description" : "Session IPA (low abv = session beer-can drink for an extended period. Most IPA’s are high point 7-9% abv) Light in color. Well balanced hop flavors (simco & cascade) floral notes mild citrus flavors. (Pairs well with pork, salads, spicy foods).",
+    "id" : "81",
+    "image" : "",
+    "name" : "Any Day IPA",
+    "url" : "http://www.vernalbrewingco.com/vbc-beer.html"
+  }, {
+    "brewery" : "Vernal Brewing Company",
+    "description" : "Rich, dark, smooth. Smoked flavors come from smoked malt (the same malt used to make scotch). Chocolate undertones, slightly nutty, full bodied. Low hop profile. Balanced malty hoppiness. Thick creamy head. (Pairs well with desserts, red meats, pizza).",
+    "id" : "82",
+    "image" : "",
+    "name" : "Directional Porter",
+    "url" : "http://www.vernalbrewingco.com/vbc-beer.html"
+  }, {
+    "brewery" : "Squatters Craft Beers",
+    "description" : "HOP RISING. A mighty hop-lover's dream. Hop rising adds malty backbone to an intense Imperial IPA. This insanely smooth dry-hopped ale has everything: 9% ALC/VOL, 72 IBUs, and yes, thats our master brewer Jason Stock pitching in on the label. 9% ALCOHOL BY VOL.",
+    "id" : "83",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/squatters_hop_rising.png",
+    "name" : "Hop Rising",
+    "url" : "http://www.squatters.com/our-brew/"
+  }, {
+    "brewery" : "Squatters Craft Beers",
+    "description" : "OFF DUTY. Like your favorite hammock, this IPA is perfectly relaxed and balanced. The smoothness of premium barley lies in equilibrium with the hoppiness of a classic American IPA. Kick back and reward yourself with this multiple award-winner. 6.5% ALCOHOL BY VOL.",
+    "id" : "84",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/squatters_off_duty.png",
+    "name" : "Off Duty",
+    "url" : "http://www.squatters.com/our-brew/"
+  }, {
+    "brewery" : "Squatters Craft Beers",
+    "description" : "TAKEOUT. Like knockin' rocks? Stay warm on the ice this winter with Takeout Rye IPA - a spicy, hop-forward winter ale that's right on the button. 6.25% ALCOHOL BY VOL.",
+    "id" : "85",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/squatters_takeout.png",
+    "name" : "Takeout",
+    "url" : "http://www.squatters.com/our-brew/"
+  }, {
+    "brewery" : "Squatters Craft Beers",
+    "description" : "WELLIED. Don't let the boots fool you. This easy-drinking Irish style stout is rich, dark and complex - thanks to a good long mash rest and heaps o' roasted barley. As we say in the brewhouse, \"Give it a lash.\" 4% ALCOHOL BY VOL.",
+    "id" : "86",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/squatters_wellied.png",
+    "name" : "Wellied",
+    "url" : "http://www.squatters.com/our-brew/"
+  }, {
+    "brewery" : "Squatters Craft Beers",
+    "description" : "WEE PEAT. Doff the cap of this complex Scottish Ale with 5.6% ALC/VOL, and in a wink you'll be hearing Highland bagpipes as you sip this smoky, peaty, bonnie good brew. Aye. That's the high road, that is. 5.6% ALCOHOL BY VOL.",
+    "id" : "87",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/squatters_wee_peat.png",
+    "name" : "Wee Peat",
+    "url" : "http://www.squatters.com/our-brew/"
+  }, {
+    "brewery" : "Squatters Craft Beers",
+    "description" : "FULL SUSPENSION. This rich, Northwest-style Pale Ale is a rare feat of balance: unfiltered, dry-hopped to 40 IBUs, and deliciously seasonable. Groove on this two-time Great American Beer Festival® Gold Medal winner (2001 and 2002 Bitter Category). It really smooths out the bumps. 4% ALCOHOL BY VOL.",
+    "id" : "88",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/squatters_full_suspension.png",
+    "name" : "Full Suspension",
+    "url" : "http://www.squatters.com/our-brew/"
+  }, {
+    "brewery" : "Squatters Craft Beers",
+    "description" : "RESPECT YOUR MOTHER. We craft this terra-friendly Amber Ale using only premium organic pale and caramel malted barley, aromatic Cascade hops, and a deep love of Mother Nature. You might say it's brewed the way Mother always intended. 4% ALCOHOL BY VOL.",
+    "id" : "89",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/squatters_respect_your_mother.png",
+    "name" : "Respect Your Mother",
+    "url" : "http://www.squatters.com/our-brew/"
+  }, {
+    "brewery" : "Squatters Craft Beers",
+    "description" : "CHAISING TAIL. A best-of-breed English style Summer Ale, this tail-wagger's already fetched a real name for itself in competition. Our premium barley rolls over with domestic and imported Golding hops for a delicate bitterness and cold, wet nose. 4% ALCOHOL BY VOL.",
+    "id" : "90",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/squatters_chasing_tail.png",
+    "name" : "Chasing Tail",
+    "url" : "http://www.squatters.com/our-brew/"
+  }, {
+    "brewery" : "Squatters Craft Beers",
+    "description" : "AMERICAN WHEAT. Five American grains come together with Tettnanger hops and Altbier yeast to deliver a soft mouth feel with subtle notes or citrus. Finish with a lemon wedge and pour with unfiltered pride. 4% ALCOHOL BY VOL.",
+    "id" : "91",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/squatters_american_wheat.png",
+    "name" : "American Wheat",
+    "url" : "http://www.squatters.com/our-brew/"
+  }, {
+    "brewery" : "Squatters Craft Beers",
+    "description" : "BLACK FOREST. A deeply enchanting German style lager brewed with Pilsner, Munich, Special B, and a forest of dark malts. Lightly hoped with 100% German Nobel hops, it has bewitchingly smooth roast undertones and a fairy tale finish. 6% ALCOHOL BY VOL.",
+    "id" : "92",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/squatters_black_forest.png",
+    "name" : "Black Forest",
+    "url" : "http://www.squatters.com/our-brew/"
+  }, {
+    "brewery" : "Squatters Craft Beers",
+    "description" : "VIENNA. Ahhh, Austria. Narrow cobbled streets, a whiff of schnitzel in the air, and the taste of our wunderbar Oktoberfest Lager Bier - lightly hopped and brewed with slightly sweet caramel malt. Pairs perfectly with lederhosen. Prost! 4% ALCOHOL BY VOL.",
+    "id" : "93",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/squatters_vienna.png",
+    "name" : "Vienna",
+    "url" : "http://www.squatters.com/our-brew/"
+  }, {
+    "brewery" : "Squatters Craft Beers",
+    "description" : "BUMPER CROP. Like summer in a bottle, Bumper Crop starts with the gentle aromas of freshly gathered lavender and features local honey for a soft, slightly sweet finish. At 5.5% ALC/VOL, it simply tastes bee-yootiful. 5.5% ALCOHOL BY VOL.",
+    "id" : "94",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/squatters_bumper_crop.png",
+    "name" : "Bumper Crop",
+    "url" : "http://www.squatters.com/our-brew/"
+  }, {
+    "brewery" : "Squatters Craft Beers",
+    "description" : "OUTER DARKNESS. Welcome to the biggest beer Squatters Pub Brewery has ever made! A Russian Imperial Stout is one of the most intensely flavored beers a brewer can create. The combination of rich roasted barley, oak, molasses and licorice root combine to create an utterly unique and complex imperial stout experience. 10.5% ALCOHOL BY VOL.",
+    "id" : "95",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/squatters_outer_darkness.png",
+    "name" : "Outer Darkness",
+    "url" : "http://www.squatters.com/our-brew/"
+  }, {
+    "brewery" : "Squatters Craft Beers",
+    "description" : "HELL'S KEEP. Hell's Keep is deceptively refreshing and complex. A unique ester profile developed in fermentation and high level of carbonation produce this devilish golden strong ale. Artwork by local artist William Swartzfager winner of Squatters and X96's Radio From Hell label context held February 2009. 7.75% ALCOHOL BY VOL.",
+    "id" : "96",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/squatters_hells_keep.png",
+    "name" : "Hell's Keep",
+    "url" : "http://www.squatters.com/our-brew/"
+  }, {
+    "brewery" : "Shades of Pale Brewing",
+    "description" : "Ready to Fly is a medley of specialty malts and hops brewed to give you a taste of Park City.   This amber ale has a refreshing medium bitterness profile.  It’s a little more “hoppy” than Publican Pale Ale but not as  as “hoppy” as an IPA.  Take a sip and you may notice a hint of raisin and plum on the tip of the tongue and a gram cracker finish at the back of the palette.",
+    "id" : "97",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/shades_ready_to_fly.jpg",
+    "name" : "Ready To Fly",
+    "url" : "http://shadesofpale.com/brews/ready-to-fly/"
+  }, {
+    "brewery" : "Shades of Pale Brewing",
+    "description" : "Jackwagon Wheat was the first beer Shades of Pale released.    It is particularly popular among athletes after a hard work out and a favorite with drikers making an entre into craft.   It was designed to “go down easy”.    We even often hear comments such as, “I don’t like beer, but I love this beer!”",
+    "id" : "98",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/shades_jack_wagon.jpg",
+    "name" : "Jack Wagon Wheat",
+    "url" : "http://shadesofpale.com/jack-wagon-wheat/"
+  }, {
+    "brewery" : "Shades of Pale Brewing",
+    "description" : "4-Play pours deep mohogany brown with a beautiful beige head. Medium bitterness is balanced by 4playlabelsweet caramel maltiness we think you’re going to love. If you’re a conosseur, you may notice below average carbonation. In this beer, the lower carbonation level contributes to its smooth and creamy mouth feel. For added complexity, 4-Play tantilizes with its’ aromatic chocolate and coffee notes combined with earthy and light smokey undertones.",
+    "id" : "99",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/shades_4_play.jpg",
+    "name" : "4-Play Porter",
+    "url" : "http://shadesofpale.com/4-play-porter/"
+  }, {
+    "brewery" : "Shades of Pale Brewing",
+    "description" : "Publican is an American Pale Ale with moderate bitterness. It has a strong floral nose and a well rounded hop profile that travels from the tip to the back of the tongue with every sip.",
+    "id" : "100",
+    "image" : "//s3-us-west-2.amazonaws.com/slcchallenge/images/shades_publican.jpg",
+    "name" : "Publican Pale Ale",
+    "url" : "http://shadesofpale.com/brews/1305-2/"
+  } ],
+  "checkins" : {
+    "github:346290" : {
+      "0" : {
+        "bartender" : "Chelsea",
+        "time" : "1423610184192"
+      },
+      "12" : {
+        "bar" : "Georgies",
+        "bartender" : "Tina",
+        "time" : "1423444471803",
+        "type" : "Bottle"
+      },
+      "14" : {
+        "bar" : "Something Cool",
+        "bartender" : "George",
+        "time" : "1423443869662",
+        "type" : "Bottle"
+      },
+      "15" : {
+        "bar" : "McDonalds",
+        "bartender" : "Tina",
+        "time" : "1423444553738",
+        "type" : "Draught"
+      },
+      "16" : {
+        "bar" : "Georgies",
+        "bartender" : "Helen",
+        "time" : "1423442957615",
+        "type" : "Can"
+      },
+      "32" : {
+        "bar" : "Georgies",
+        "bartender" : "China",
+        "time" : "1423442923789",
+        "type" : "Bottle"
+      },
+      "33" : {
+        "bar" : "Georgies",
+        "bartender" : "Tom",
+        "time" : "1423444126230",
+        "type" : "Bottle"
+      },
+      "34" : {
+        "bar" : "Something Cool",
+        "bartender" : "Cheese",
+        "time" : "1423615679770",
+        "type" : "Bottle"
+      },
+      "64" : {
+        "bar" : "Georgies",
+        "bartender" : "Mike",
+        "time" : "1423615561295",
+        "type" : "Draught"
+      },
+      "78" : {
+        "bar" : "Toms",
+        "bartender" : "China",
+        "time" : "1423609746531",
+        "type" : "Bottle"
+      },
+      "99" : {
+        "bar" : "McDonalds",
+        "bartender" : "George",
+        "time" : "1423615467201",
+        "type" : "Draught"
+      }
+    },
+    "google:112359611243694546279" : {
+      "1" : {
+        "bar" : "Bayou",
+        "bartender" : "Steve",
+        "time" : "1423500639890",
+        "type" : "Bottle"
+      },
+      "47" : {
+        "bar" : "Georgies",
+        "bartender" : "Mike Dude",
+        "time" : "1423499837817",
+        "type" : "Bottle"
+      },
+      "62" : {
+        "bar" : "Bayou",
+        "bartender" : "Cynthia",
+        "time" : "1423520001152",
+        "type" : "Draught"
+      },
+      "78" : {
+        "bar" : "Toms",
+        "bartender" : "Tom",
+        "time" : "1423528476601",
+        "type" : "Can"
+      },
+      "83" : {
+        "bar" : "Toms",
+        "bartender" : "George",
+        "time" : "1423601947380",
+        "type" : "Can"
+      },
+      "95" : {
+        "bar" : "Squatters",
+        "bartender" : "Tom",
+        "time" : "1423601862033",
+        "type" : "Draught"
+      }
+    },
+    "simplelogin:1" : {
+      "23" : {
+        "bar" : "Got it",
+        "bartender" : "Te",
+        "time" : "1423575981597",
+        "type" : "Draught"
+      },
+      "24" : {
+        "bar" : "Georgies",
+        "bartender" : "Doug",
+        "time" : "1423444259942",
+        "type" : "Bottle"
+      },
+      "29" : {
+        "bar" : "Georgies",
+        "bartender" : "Steve",
+        "time" : "1423575867759",
+        "type" : "Can"
+      },
+      "32" : {
+        "bar" : "Something Cool",
+        "bartender" : "Tim",
+        "time" : "1423615772789",
+        "type" : "Bottle"
+      },
+      "45" : {
+        "bar" : "Bayou",
+        "bartender" : "Christine",
+        "time" : "1423444310396",
+        "type" : "Draught"
+      },
+      "66" : {
+        "bar" : "Good Times",
+        "bartender" : "Mike",
+        "time" : "1423615822482",
+        "type" : "Bottle"
+      }
+    }
+  },
+  "users" : {
+    "github:346290" : {
+      "name" : "Steiny"
+    },
+    "google:112359611243694546279" : {
+      "name" : "Leslie"
+    },
+    "simplelogin:1" : {
+      "email" : "tewen@neosavvy.com",
+      "name" : "Tewen"
+    },
+    "simplelogin:2" : {
+      "email" : "diane.dee.ewen@gmail.com",
+      "name" : "Diane.dee.ewen"
+    }
+  }
+}
