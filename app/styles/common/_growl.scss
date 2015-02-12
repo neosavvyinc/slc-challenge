@@ -16,14 +16,12 @@
     box-shadow: 4px 4px 10px #888888;
     border: none;
     opacity: .9;
-  }
-  .alert-success, .alert-danger {
     color: #FFFFFF;
   }
   .alert-success {
     background-color: $salt_lake_city_green;
   }
-  .alert-danger {
+  .alert-danger, .alert-warning {
     background-color: $salt_lake_city_blue;
   }
 }

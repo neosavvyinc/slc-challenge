@@ -29,7 +29,7 @@ prompt.get(['name', 'brewery', 'description', 'url', 'image'], function (err, re
 
     ref.child('beers').child(String(length)).set(result);
 
-    if (result.image) {
+    if (result.image && result.image !== _.last(val).image) {
       optimizeImages().then(uploadImages);
     } else {
       ref.once('value', function () {

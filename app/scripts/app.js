@@ -22,7 +22,7 @@ angular.module('slcChallengeApp', [
   'autocomplete',
   'angular-data.DSCacheFactory'
 ]).config(function (growlProvider, DSCacheFactoryProvider) {
-  growlProvider.globalTimeToLive({success: 1800, danger: 5000});
+  growlProvider.globalTimeToLive({success: 1800, danger: 5000, warning: 10000});
   growlProvider.globalDisableCloseButton(true);
   growlProvider.globalDisableIcons(true);
   growlProvider.globalDisableCountDown(true);
@@ -49,8 +49,8 @@ angular.module('slcChallengeApp', [
       href: 'beers'
     }
   };
-});
 
-if (window.location.origin.match('slcchallenge.firebaseapp.com')) {
-  alert('Thanks for helping us test this application. Because the challenge is for ng-conf, existing check-ins (but not user accounts) will be cleared at 5:00PM RMT on March 4th.');
-}
+  if (window.location.origin.match('slcchallenge.firebaseapp.com')) {
+    growl.warning('Thanks for helping us test this application. Because the challenge is for ng-conf, existing check-ins (but not user accounts) will be cleared at 5:00PM RMT on March 4th.');
+  }
+});
