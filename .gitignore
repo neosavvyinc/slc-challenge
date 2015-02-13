@@ -6,3 +6,4 @@ bower_components
 .idea
 *.iml
 s3-credentials.json
+data/images

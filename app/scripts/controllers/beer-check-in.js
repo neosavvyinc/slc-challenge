@@ -17,7 +17,7 @@ angular.module('slcChallengeApp')
     });
 
     var hasRequiredFields = function (checkIn) {
-        return checkIn && checkIn.bar && checkIn.bartender;
+      return checkIn && checkIn.bar && checkIn.bartender;
     };
 
     //Watchers
@@ -38,6 +38,18 @@ angular.module('slcChallengeApp')
     this.checkInNow = function (e, allow) {
       e.preventDefault();
       this.localState.checkInFields = !this.localState.checkInFields;
+    };
+    this.getReferenceLabel = function (beer) {
+      if (beer) {
+        if (beer.image && beer.description) {
+          return '*Image & Description:';
+        } else if (beer.image) {
+          return '*Image:';
+        } else if (beer.description) {
+          return '*Description:';
+        }
+      }
+      return '';
     };
     this.submit = function (e) {
       e.preventDefault();

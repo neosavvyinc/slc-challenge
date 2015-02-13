@@ -22,3 +22,14 @@ a {
   color: #999999;
   padding-left: 10px;
 }
+
+a {
+  &.neosavvy-link {
+    &.orange {
+      color: $neosavvy_orange;
+    }
+    &.blue {
+      color: $neosavvy_blue;
+    }
+  }
+}

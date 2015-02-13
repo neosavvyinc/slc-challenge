@@ -33,16 +33,13 @@
           if (!err) {
             var myFile = path.join("data", "images", file);
             im.identify(myFile, function (err, features) {
-              if (features && features.format.toLowerCase().indexOf("j") === 0) {
-                var commands = [myFile, '-quality', 45];
+              if (features) {
+                var commands = [myFile, '-quality', features.format.toLowerCase().indexOf("j") === 0 ? 45 : 0];
                 if (features.width > TARGET_WIDTH) {
                   commands = commands.concat(["-resize", TARGET_WIDTH]);
                 }
                 commands = commands.concat(myFile);
                 im.convert(commands, done);
-              }
-              else if (features && features.width > TARGET_WIDTH) {
-                im.resize({srcPath: myFile, dstPath: myFile, width: TARGET_WIDTH}, done);
               } else {
                 done();
               }

@@ -47,6 +47,10 @@ angular.module('slcChallengeApp', [
     '/leaders': {
       label: 'Go to the Beer List',
       href: 'beers'
+    },
+    '/about': {
+      label: 'Back to Beer List',
+      href: 'beers'
     }
   };
 
