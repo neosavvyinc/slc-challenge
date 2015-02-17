@@ -8,7 +8,7 @@
  * Factory in the slcChallengeApp.
  */
 angular.module('slcChallengeApp')
-  .factory('readOnly', function ($rootScope, $q, fbutil, simpleLogin, DSCacheFactory) {
+  .factory('readOnly', function ($rootScope, $q, fbutil, simpleLogin) {
 
     var readOnly = {};
 
@@ -65,7 +65,7 @@ angular.module('slcChallengeApp')
         var val = snapshot.val();
         if (val) {
             //@TODO, this is a little intense, may be a more performant way to manage this.
-            val = _(val).values().compact().map(_.values).flatten().compact().map('bar').uniq().valueOf();
+            val = _(val).values().compact().map(_.values).flatten().compact().map('bar').uniq().compact().valueOf();
         }
         deferred.resolve(val);
       }, deferred.reject);

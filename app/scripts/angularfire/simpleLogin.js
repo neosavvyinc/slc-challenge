@@ -37,7 +37,9 @@
         },
 
         login: function(provider, opts) {
-          return auth.$authWithOAuthPopup(provider, opts);
+          return auth.$authWithOAuthPopup(provider, opts).catch(function () {
+            return auth.$authWithOAuthRedirect(provider, opts);
+          });
         },
 
         anonymousLogin: function(opts) {

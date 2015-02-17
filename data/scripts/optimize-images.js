@@ -34,7 +34,7 @@
             var myFile = path.join("data", "images", file);
             im.identify(myFile, function (err, features) {
               if (features) {
-                var commands = [myFile, '-quality', features.format.toLowerCase().indexOf("j") === 0 ? 45 : 0];
+                var commands = [myFile, '-quality', features.format.toLowerCase().indexOf("j") === 0 ? 50 : 0];
                 if (features.width > TARGET_WIDTH) {
                   commands = commands.concat(["-resize", TARGET_WIDTH]);
                 }
