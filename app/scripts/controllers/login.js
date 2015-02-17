@@ -7,7 +7,7 @@
  * Manages authentication to any active providers.
  */
 angular.module('slcChallengeApp')
-  .controller('LoginCtrl', function ($scope, simpleLogin, $location) {
+  .controller('LoginCtrl', function ($scope, simpleLogin, $location, $parse, $timeout) {
     $scope.oauthLogin = function (provider) {
       $scope.err = null;
       simpleLogin.login(provider, {rememberMe: true}).then(oAuthRedirect, showError);
@@ -51,5 +51,19 @@ angular.module('slcChallengeApp')
       $scope.err = err;
     }
 
+    //Initialization in the redirect case
+    function checkLogin(attempt) {
+      if (attempt < 10) {
+        $timeout(function () {
+          if ($parse('auth.uid')(simpleLogin.getUser())) {
+            oAuthRedirect();
+          } else {
+            checkLogin(attempt++);
+          }
+        }, 1000);
+      }
+    }
+
+    checkLogin(0)
 
   });

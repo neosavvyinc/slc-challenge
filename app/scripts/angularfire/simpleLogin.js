@@ -37,7 +37,10 @@
         },
 
         login: function(provider, opts) {
-          return auth.$authWithOAuthPopup(provider, opts).catch(function () {
+          //return auth.$authWithOAuthPopup(provider, opts).catch(function () {
+          //  return auth.$authWithOAuthRedirect(provider, opts);
+          //});
+          return $q.reject().catch(function () {
             return auth.$authWithOAuthRedirect(provider, opts);
           });
         },
