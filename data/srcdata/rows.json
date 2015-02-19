@@ -1,0 +1,238 @@
+{
+  "beers": [
+    {
+      "name": "Beer Name",
+      "brewery": "Brewery Name",
+      "description": "<p><b>Beer Style</b>, Description</p><p><b>Fermentables:</b>Fermentables</p><p><b>Hops / Spices:</b>Hops / Spices</p>",
+      "url": ""
+    },
+    {
+      "name": "Sweet Maria's Magic Mojo",
+      "brewery": "BrewHeister",
+      "description": "<p><b>Mocha Milk Stout</b>, dark roasty chocolaty milk bomb with home roasted Kenyan coffee beans</p><p><b>Fermentables:</b>Chocolate, Black & Roasted Barley, Special B</p><p><b>Hops / Spices:</b>Magnum, East Kent Goldings</p>",
+      "url": ""
+    },
+    {
+      "name": "Leftovers IPA",
+      "brewery": "Ryan  Crook ",
+      "description": "<p><b>American IPA</b>, Used whatever leftover grains I had laying around </p><p><b>Fermentables:</b>2 row, caramalt, vienna, c40, carapils</p><p><b>Hops / Spices:</b>Columbus, Mosaic, Galaxy </p>",
+      "url": ""
+    },
+    {
+      "name": "Blondes Have More Tun",
+      "brewery": "Chris Pagnotta",
+      "description": "<p><b>Belgian Blonde</b></p>",
+      "url": ""
+    },
+    {
+      "name": "Brett Hop Session",
+      "brewery": "Jeff Lyons",
+      "description": "<p><b>Session Brett IPA</b>, 100% Brett Trois fermentation.  All the hops without all the alcohol! </p><p><b>Fermentables:</b>Maris Otter, C15, Acidulated</p><p><b>Hops / Spices:</b>Waimea, Mosaic, Simcoe</p>",
+      "url": ""
+    },
+    {
+      "name": "The Jasmine Jewel",
+      "brewery": "Speed Brewing",
+      "description": "<p><b>Fermented Tea</b>, Fermented Jasmine Green Tea</p><p><b>Fermentables:</b>Table sugar</p>",
+      "url": ""
+    },
+    {
+      "name": "Berry White Pepper Pleasure",
+      "brewery": "Speed Brewing",
+      "description": "<p><b>Short Mead</b>, Strawberries, Blueberries & Raspberries</p><p><b>Fermentables:</b>honey</p><p><b>Hops / Spices:</b>Cambodian White Pepper</p>",
+      "url": ""
+    },
+    {
+      "name": "Calling Grace",
+      "brewery": "Kyle Knudson",
+      "description": "<p><b>American Red Ale</b>, Pours a russet-copper. Juicy tropical and pine nose. Biscuity English yeast. Gulps most satisfyingly when you're being nickle-and-dimed. Gulp again.</p><p><b>Fermentables:</b>Maris Otter, Caramunich, White Wheat, Carafa</p><p><b>Hops / Spices:</b>Falconer's Flight, Cascade, Simcoe</p>",
+      "url": ""
+    },
+    {
+      "name": "Beach Camp",
+      "brewery": "Merlin  U Ward",
+      "description": "<p><b>Dunkelweizen</b>, A beer that helps pitch your tent on the beach. </p><p><b>Fermentables:</b>Pale Malt, White Wheat Malt, Chocolate Malt, Smoked Malt</p><p><b>Hops / Spices:</b>Hallertauer</p>",
+      "url": ""
+    },
+    {
+      "name": "Brewery Brett IPA",
+      "brewery": "Brewery Brett",
+      "description": "<p><b>Brett IPA</b>, Fruit-forward brett IPA with subtle funk</p><p><b>Fermentables:</b>NY State-grown pale malt</p><p><b>Hops / Spices:</b>Simcoe and Galaxy</p>",
+      "url": ""
+    },
+    {
+      "name": "Spelted APA",
+      "brewery": "Joe Kirchhof",
+      "description": "<p><b>Spelted APA</b>, British base malt, 20% German spelt malt, and a bit of caramunich III</p><p><b>Hops / Spices:</b>Horizon, Simcoe, Hersbrucker, and Pacific Jade</p>",
+      "url": ""
+    },
+    {
+      "name": "Brustwarzenweizen",
+      "brewery": "Alex Kalaf",
+      "description": "<p><b>Dunkelweizen</b></p><p><b>Hops / Spices:</b>Magnum Hops</p>",
+      "url": ""
+    },
+    {
+      "name": "Choc Full o'Nuts (&Oats)",
+      "brewery": "Ryan McMahon",
+      "description": "<p><b>Specialty</b>, Oatmeal Chocolate Macadamia Porter</p>",
+      "url": ""
+    },
+    {
+      "name": "Nickel Pale ale",
+      "brewery": "Bitter & Esters",
+      "description": "<p><b>Pale ale</b>, 5 malts, 5 hop additions, 5% alchohol and Denny's Favorite 50 yeast. Notice a pattern here?</p><p><b>Fermentables:</b>Vienna Malt, 2 row, Biscuit Malt, Special Roast, Honey Malt  </p><p><b>Hops / Spices:</b>Fuggle, Pride of Ringwood, Amarillo</p>",
+      "url": ""
+    },
+    {
+      "name": "Pale Stout",
+      "brewery": "Nick Harbour",
+      "description": "<p><b>Pale Stout</b>, Based on a historical recipe from 1803</p><p><b>Fermentables:</b>Pale malt and Brown Malt</p><p><b>Hops / Spices:</b>East Kent Golding Hops</p>",
+      "url": ""
+    },
+    {
+      "name": "Holy Beggar's Breakfast",
+      "brewery": "Holy Inn Brewing Company",
+      "description": "<p><b>Milk Stout</b>, Chocolate Oatmeal Milk Stout - cold steeped dark grains and lactose added towards the end of the boil. Aged on cocoa nibs for 6 days in a secondary fermenter.</p><p><b>Fermentables:</b>lactose</p><p><b>Hops / Spices:</b>US Goldings and Willamette</p>",
+      "url": ""
+    },
+    {
+      "name": "Hop Cholent",
+      "brewery": "Holy Inn Brewing Company",
+      "description": "<p><b>Double IPA </b>, Double IPA brewed with 13.3oz of hops</p><p><b>Fermentables:</b>2-row, white wheat, vienna, and crystal 20L</p><p><b>Hops / Spices:</b>Columbus, Centennial, Citra, Simcoe, Amarillo, and El Dorado</p>",
+      "url": ""
+    },
+    {
+      "name": "Mr. Darkside",
+      "brewery": "Tyler March",
+      "description": "<p><b>American Stout</b></p><p><b>Hops / Spices:</b>Amarillo & Centennial </p>",
+      "url": ""
+    },
+    {
+      "name": "Megatron",
+      "brewery": "Tyler March",
+      "description": "<p><b>Golden Stout</b>, A golden stout that is light in color but deceptively roasty and chocolaty in flavor. Inspired by a few commercial examples on the market. </p>",
+      "url": ""
+    },
+    {
+      "name": "G'day Monsieur",
+      "brewery": "Tyler March",
+      "description": "<p><b>Hoppy Saison</b>, A french farmhouse beer with lots of southern hemisphere hops.</p><p><b>Hops / Spices:</b>Galaxy & Kohatu</p>",
+      "url": ""
+    },
+    {
+      "name": "All About that Dort",
+      "brewery": "Crown Heights Brewing ",
+      "description": "<p><b>Dortmunder Export</b></p><p><b>Fermentables:</b>Pilsner, Munich, Carapils</p><p><b>Hops / Spices:</b>Tettnang, Halertauer</p>",
+      "url": ""
+    },
+    {
+      "name": "A Lady Never Tells",
+      "brewery": "If I had one, it'd be called #DubiousHooch ",
+      "description": "<p><b>Belgian Blond Ale</b>, Inspired by winter fruit pie and mulled wine.</p><p><b>Fermentables:</b>All-grain. Malts: Pilsner, Caramel 10, Munich, White Wheat</p><p><b>Hops / Spices:</b>Lingonberries added to secondary. Secret spice infusion added at bottling. </p>",
+      "url": ""
+    },
+    {
+      "name": "Charlie's Brown",
+      "brewery": "Bitter & Esters",
+      "description": "<p><b>Hoppy Brown Ale</b>, Written exclusivly for Bitter & Esters by home brew guru Charlie Papazian on his recent visit. </p><p><b>Fermentables:</b> 2 row, ��maris otter, caramel10L, honey malt, aromatic malt,debittered black malt, chocolate malt</p><p><b>Hops / Spices:</b>liberty, mosaic, nelson sauvin</p>",
+      "url": ""
+    },
+    {
+      "name": "German Blonde Ale",
+      "brewery": "Thirsty Quaker Brewing",
+      "description": "<p><b>German Blonde Ale</b>, Crisp and light, with a spicy noble hop finish</p>",
+      "url": ""
+    },
+    {
+      "name": "Baby Rye",
+      "brewery": "Thirsty Quaker Brewing",
+      "description": "<p><b>Rye Pale Ale</b></p>",
+      "url": ""
+    },
+    {
+      "name": "Sweet Brown",
+      "brewery": "Thirsty Quaker Brewing",
+      "description": "<p><b>Brown Ale</b></p>",
+      "url": ""
+    },
+    {
+      "name": "The Spy",
+      "brewery": "Diana Dale",
+      "description": "<p><b>Baltic Porter</b>, with cloves</p>",
+      "url": ""
+    },
+    {
+      "name": "Redcoat",
+      "brewery": "Thirsty Quaker Brewing",
+      "description": "<p><b>British Red Ale</b></p>",
+      "url": ""
+    },
+    {
+      "name": "Academy Award Nominee",
+      "brewery": "Thirsty Quaker Brewing",
+      "description": "<p><b>Belgian Dark Strong Ale</b></p>",
+      "url": ""
+    },
+    {
+      "name": "Saaz Hands",
+      "brewery": "Flat Boat Brewing",
+      "description": "<p><b>Czech Pilsner</b>, Special Process: Double-Decoction... because I apparently have a lot of free time. Inspiration: See aforementioned free time.</p><p><b>Fermentables:</b>German Pilsner and 30% Rye Malt</p><p><b>Hops / Spices:</b>Saaz... like a lot of goddam Sazz.</p>",
+      "url": ""
+    },
+    {
+      "name": "Acidifus Nelson",
+      "brewery": "Greenpoint Beer & Ale Co.",
+      "description": "<p><b>American Wild Ale</b>, Well known heart-breaker, lover-boy Nelson Sauvin mixes emotion in this kettle-soured crush. Malted Pilsner and Spelt, unmalted Oats and Wheat provide the introduction for a match only Acidifus can meet. She�۪s a sour thing, but Nelson is suave and sophisticated, scented with ripe tropical fruit, white grapes, and a 100% Brett Claussenii fermentation. They hit it off immediately.</p><p><b>Fermentables:</b>Malted Pilsner and Spelt, unmalted Oats and Wheat</p><p><b>Hops / Spices:</b>Nelson Sauvin</p>",
+      "url": ""
+    },
+    {
+      "name": "Sin Wagon",
+      "brewery": "Merlin U Ward",
+      "description": "<p><b>Tart American Brown</b>, A roller coaster of devilish indulgences that will leave you wanting more. </p><p><b>Fermentables:</b>2-row, Chocolate malt, Crystal 60, Black Malt</p><p><b>Hops / Spices:</b>Centennial, Citra</p>",
+      "url": ""
+    },
+    {
+      "name": "Imperial Stout",
+      "brewery": "Ed Kurowski",
+      "description": "<p><b>Imperial Stout</b></p>",
+      "url": ""
+    },
+    {
+      "name": "Fat Man, Little Stout",
+      "brewery": "Strong Rope Brewery",
+      "description": "<p><b>American Session Stout</b>, Full flavored low alcohol hoppy American Stout perfect for a long session </p><p><b>Hops / Spices:</b>Cascade</p>",
+      "url": ""
+    },
+    {
+      "name": "Black honey and lemon ale",
+      "brewery": "Jesse Dowell",
+      "description": "<p><b>Black honey and lemon ale</b></p><p><b>Fermentables:</b>Honey</p><p><b>Hops / Spices:</b>US Ahtanum, Kent Golding and lemon peel</p>",
+      "url": ""
+    },
+    {
+      "name": "Smokey the Cub",
+      "brewery": "Patrick  Wade",
+      "description": "<p><b>Mild</b>, Cherrywood Smoked Mild</p>",
+      "url": ""
+    },
+    {
+      "name": "Black Smoke (Schwarzer Rauch)",
+      "brewery": "BrewHeister",
+      "description": "<p><b>GER / USA Mash-Up</b>, Rauchbier + Black IPA</p><p><b>Fermentables:</b>2 Row, Vienna, Beechwood, Black Barley, Black Patent, Cara-Pils</p><p><b>Hops / Spices:</b>Magnum, Centennial, Cascade, Hallertauer, Tettnang</p>",
+      "url": ""
+    },
+    {
+      "name": "Jamborator",
+      "brewery": "BrewHeister",
+      "description": "<p><b>Doppel Bock</b>, Slightly smokey, super malty, single decoction</p><p><b>Fermentables:</b>Pilsner, Munich, Beechwood, Carafa II, Chocolate Rye</p><p><b>Hops / Spices:</b>Hallertauer</p>",
+      "url": ""
+    },
+    {
+      "name": "Logger SMaSH!",
+      "brewery": "BrewHeister",
+      "description": "<p><b>Hoppy Lager</b>, Single Malt Single Hop Lager with cumquats</p><p><b>Fermentables:</b>Maris Otter</p><p><b>Hops / Spices:</b>Citra</p>",
+      "url": ""
+    }
+  ]
+}

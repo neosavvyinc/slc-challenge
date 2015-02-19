@@ -4,7 +4,7 @@ var uploadImages = require("./upload-images");
 var optimizeImages = require("./optimize-images");
 var Firebase = require('firebase');
 
-var ref = new Firebase('https://slcchallenge.firebaseio.com/');
+var ref = new Firebase('https://brewnity.firebaseio.com/');
 var S3_BASE = '//s3-us-west-2.amazonaws.com/slcchallenge/images/';
 
 prompt.start();

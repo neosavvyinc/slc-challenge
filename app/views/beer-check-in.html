@@ -15,13 +15,6 @@
           </button>
         </div>
         <div class="slide" ng-show="beerCheckInCtrl.localState.checkInFields">
-          <autocomplete type="text" ng-model="beerCheckInCtrl.localState.bar" autocomplete
-                        data="bars" attr-class="form-group" attr-input-class="form-control input-lg"
-                        attr-placeholder="Bar/Restaurant Name" autocomplete-required></autocomplete>
-          <div class="form-group">
-            <input type="text" class="form-control input-lg" ng-model="beerCheckInCtrl.localState.bartender"
-                   placeholder="Bartender/Wait(er/ress) Name" required/>
-          </div>
           <div class="form-group">
             <select class="form-control input-lg"
                     ng-model="beerCheckInCtrl.localState.type">
