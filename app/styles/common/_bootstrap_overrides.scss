@@ -44,10 +44,11 @@ a, .btn-link {
       text-transform: uppercase;
       cursor: pointer;
       &.success {
+        color: #FFFFFF;
         a, button, .btn-link {
-          color: #333333;
+          color: #FFFFFF;
           &:active, &:hover {
-            color: #000000;
+            color: #FFFFFF;
           }
         }
         td {
