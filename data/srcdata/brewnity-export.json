@@ -312,5 +312,78 @@
       "description": "<p><b>Black IPA</b></p><p><b>Brewer:</b> Shannon & Jon Bowser & Luton</p><p><b>Club:</b> <a href=\"https://www.facebook.com/groups/306800816160096/\" target=\"_blank\">Brewdies</a></p><p><b>ABV:</b> 7%</p>",
       "url": "https://www.facebook.com/groups/306800816160096/"
     }
-  ]
+  ],
+  "checkins": {
+    "google:103363944629098368729": {
+      "36": {
+        "time": "1424365360989",
+        "type": "Draught"
+      }
+    },
+    "google:109493841528700945374": {
+      "38": {
+        "time": "1424365471062"
+      }
+    },
+    "google:117318243150440332733": {
+      "8": {
+        "rating": "3",
+        "time": "1424457897800"
+      },
+      "14": {
+        "rating": "5",
+        "time": "1424458055721"
+      },
+      "20": {
+        "rating": "2",
+        "time": "1424457532453"
+      },
+      "21": {
+        "rating": "3",
+        "time": "1424457855121"
+      }
+    },
+    "simplelogin:1": {
+      "12": {
+        "time": "1424350711928",
+        "type": "Bottle"
+      },
+      "37": {
+        "time": "1424350650663",
+        "type": "Bottle"
+      }
+    },
+    "twitter:703673006": {
+      "14": {
+        "time": "1424359778476",
+        "type": "Bottle"
+      },
+      "27": {
+        "time": "1424351672510",
+        "type": "Bottle"
+      },
+      "36": {
+        "time": "1424362708144",
+        "type": "Bottle"
+      }
+    }
+  },
+  "users": {
+    "google:103363944629098368729": {
+      "name": "BrewHeister"
+    },
+    "google:109493841528700945374": {
+      "name": "Brewheister"
+    },
+    "google:117318243150440332733": {
+      "name": "Sharky"
+    },
+    "simplelogin:1": {
+      "email": "tewen@neosavvy.com",
+      "name": "Tewen"
+    },
+    "twitter:703673006": {
+      "name": "Pears Galore"
+    }
+  }
 }
