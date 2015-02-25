@@ -72,6 +72,14 @@
   //User who drank the most beers
   //Most positive user
   //Most negative user
+  function mostPositiveNegativeUser(checkins, users) {
+    var ratings = _(checkins).map(function (cVal, userId) {
+        return {id: userId, avg: (_.reduce(cVal, function (sum, c) {
+          return sum + c;
+        }, 0) / cVal.length)};
+    }).sortBy('avg').valueOf();
+    return {negative: users[_.first(ratings).id], positive: users[_.last(ratings).id]};
+  }
 
   ref.child('checkins').once('value', function (snapshot) {
     var checkins, beers, users;
@@ -88,8 +96,8 @@
           lowestRatedBeer: highestLowestRatedBeer(checkins, beers).lowest,
           //unratedBeers: unratedBeers(checkins, beers),
           //userMostBeersDrank: userMostBeersDrank(checkins, users),
-          //mostPositiveUser: mostPositiveUser(checkins, users),
-          //mostNegativeUser: mostNegativeUser(checkins, users)
+          mostPositiveUser: mostPositiveNegativeUser(checkins, users).positive,
+          mostPositiveNegativeUser: mostPositiveNegativeUser(checkins, users).negative
         };
 
         console.log(report);
