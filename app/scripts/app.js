@@ -53,8 +53,5 @@ angular.module('slcChallengeApp', [
       href: 'beers'
     }
   };
-
-  if (window.location.origin.match('slcchallenge.firebaseapp.com')) {
-    growl.warning('Thanks for helping us test this application. Because the challenge is for ng-conf, existing check-ins (but not user accounts) will be cleared at 5:00PM RMT on March 4th.');
-  }
+  
 });
