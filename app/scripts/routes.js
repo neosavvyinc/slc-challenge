@@ -107,18 +107,6 @@ angular.module('slcChallengeApp')
         controller: 'AccountCtrl'
       })
 
-      .whenAuthenticatedWithUsername('/leaders', {
-        templateUrl: 'views/leader-board.html',
-        controller: 'LeaderBoardCtrl',
-        controllerAs: 'leaderBoardCtrl'
-      })
-
-      .whenAuthenticatedWithUsername('/leaders/:name', {
-        templateUrl: 'views/leader-data.html',
-        controller: 'LeaderDataCtrl',
-        controllerAs: 'leaderDataCtrl'
-      })
-
       .whenAuthenticatedWithUsername('/beers', {
         templateUrl: 'views/beer-list.html',
         controller: 'BeerListCtrl',
@@ -132,7 +120,7 @@ angular.module('slcChallengeApp')
         controllerAs: 'beerCheckInCtrl'
       })
 
-      .otherwise({redirectTo: '/leaders'});
+      .otherwise({redirectTo: '/beers'});
   }])
 
 /**

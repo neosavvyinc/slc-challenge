@@ -2,10 +2,17 @@
   label {
     text-transform: uppercase;
   }
-  .google, .twitter, .github {
+  .google, .twitter, .github, .facebook {
     text-transform: uppercase;
     height: 100px;
     margin-bottom: 20px;
+  }
+  .facebook {
+    background-color: #405D9B;
+    border-color: #405D9B;
+    &:hover, &:active {
+      background-color: #405D9B;
+    }
   }
   .github {
     background-color: #333333;
