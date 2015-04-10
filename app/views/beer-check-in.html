@@ -2,30 +2,29 @@
   <div class="col-xs-12">
     <h1 class="text-center text-uppercase">{{beer.name}}</h1>
 
-    <h2 class="bg-success text-center text-uppercase" ng-if="beerCheckInCtrl.checkInExists()">You drank at {{checkIn.time | momentFormat : 'h:mmA'}}, Gave {{checkIn.rating}} POINTS</h2>
+    <h2 class="bg-success text-center text-uppercase"
+        ng-if="beerCheckInCtrl.checkInExists()">You drank at {{checkIn.time | momentFormat : 'h:mmA'}}, Gave
+      {{checkIn.rating}} POINTS</h2>
 
-    <form class="form row margin-bottom-15-px" ng-submit="beerCheckInCtrl.submit($event)"
+    <form class="form row margin-bottom-15-px"
+          ng-submit="beerCheckInCtrl.submit($event)"
           ng-if="!beerCheckInCtrl.checkInExists()">
       <div class="col-xs-12">
-        <div class="slide" ng-show="beerCheckInCtrl.localState.checkInFields">
+        <div class="slide"
+             ng-show="beerCheckInCtrl.localState.checkInFields">
           <div class="form-group">
-            <select class="form-control input-lg"
-                    ng-model="beerCheckInCtrl.localState.rating" required>
-              <option value="unrated" disabled>RATE IT!</option>
-              <option value="1">1 - Sip n spit. Hey, I'm no Mother Theresa!</option>
-              <option value="2">2 - Alright, I'll drink it... for charity's sake.</option>
-              <option value="3">3 - Solid style, fine flavor, but show me the money!</option>
-              <option value="4">4 - Would make a fine liquid lunch to feed my hunger</option>
-              <option value="5">5 - Makes me want to double my donation!</option>
-            </select>
+            <points-remaining></points-remaining>
           </div>
           <div class="form-group">
             <div class="row">
-              <div class="col-xs-6">
-                <a class="btn btn-lg btn-primary btn-block" href="#/beers{{beerCheckInCtrl.getSearchTerm()}}">Later</a>
+              <div class="col-xs-4">
+                <button class="btn btn-primary btn-lg btn-block">1</button>
               </div>
-              <div class="col-xs-6">
-                <button class="btn btn-lg btn-success btn-block text-uppercase">Drink!</button>
+              <div class="col-xs-4">
+                <button class="btn btn-primary btn-lg btn-block">2</button>
+              </div>
+              <div class="col-xs-4">
+                <button class="btn btn-success btn-lg btn-block">3</button>
               </div>
             </div>
           </div>
@@ -34,13 +33,26 @@
     </form>
 
     <div class="row margin-bottom-15-px">
-      <div class="col-md-6 col-xs-12 margin-bottom-30-px" ng-show="beer.image">
+      <div class="col-md-6 col-xs-12 margin-bottom-30-px"
+           ng-show="beer.image">
         <img src="{{beer.image}}"/>
       </div>
-      <div class="col-xs-12 margin-bottom-30-px" ng-class="beer.image ? 'col-md-6' : ''">
+      <div class="col-xs-12 margin-bottom-30-px"
+           ng-class="beer.image ? 'col-md-6' : ''">
         <div ng-bind-html="beer.description"></div>
       </div>
     </div>
-    <a class="btn btn-primary btn-lg btn-block text-uppercase" href="{{beer.url}}" target="_blank">Visit Website</a>
+
+    <div class="row margin-bottom-10-px">
+      <div class="col-xs-6">
+        <a class="btn btn-lg btn-success btn-block"
+           href="#/beers{{beerCheckInCtrl.getSearchTerm()}}">Back to List</a>
+      </div>
+      <div class="col-xs-6">
+        <a class="btn btn-primary btn-lg btn-block text-uppercase"
+           href="{{beer.url}}"
+           target="_blank">Visit Website</a>
+      </div>
+    </div>
   </div>
 </div>
