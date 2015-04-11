@@ -27,6 +27,12 @@ angular.module('slcChallengeApp')
     readOnly.checkIn = function (beerId) {
       return fbutil.syncObject('checkins/' + simpleLogin.getUser().uid + '/' + beerId);
     };
+    readOnly.allVotes = function (beerId) {
+      return fbutil.syncObject('votes/' + simpleLogin.getUser().uid);
+    };
+    readOnly.vote = function (beerId) {
+      return fbutil.syncObject('votes/' + simpleLogin.getUser().uid + '/' + beerId);
+    };
     readOnly.user = function (uuid) {
         return fbutil.syncObject('users/' + uuid);
     };

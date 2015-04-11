@@ -9,15 +9,11 @@
       <tbody>
         <tr ng-repeat="b in beerListCtrl.searchFiltered(beers, beerListCtrl.localState.searchTerm)"
             ng-click="beerListCtrl.goToBeer(b.id)"
-            ng-class="beerListCtrl.beerCheckedIn(b.id, checkIns) ? 'success' : ''">
+            ng-class="beerListCtrl.votes(b.id) ? 'success' : ''">
           <td>{{b.name}}</td>
           <td>{{b.brewery}}</td>
           <td>
-            <button class="btn btn-link">
-              <span class="link-text">CHECK IN</span>
-            <span class="glyphicon glyphicon-ok">
-            </span>
-            </button>
+            {{beerListCtrl.votes(b.id)}}
           </td>
         </tr>
       </tbody>

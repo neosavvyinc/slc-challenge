@@ -12,6 +12,7 @@ angular.module('slcChallengeApp')
     //Get the beer by index
     readOnly.beer($routeParams.index).$bindTo($scope, 'beer');
     readOnly.checkIn($routeParams.index).$bindTo($scope, 'checkIn');
+    readOnly.vote($routeParams.index).$bindTo($scope, 'vote');
 
     var hasRequiredFields = function (checkIn) {
       return checkIn && checkIn.rating;
@@ -32,10 +33,12 @@ angular.module('slcChallengeApp')
     this.getSearchTerm = function () {
         return $location.search().searchTerm ? '?searchTerm=' + $location.search().searchTerm : '';
     };
-    this.vote = function (voteCount) {
+    this.vote = function (e, voteCount) {
+        e.preventDefault();
         updateOnly.vote($scope.beer, voteCount).then(function (result) {
-          console.log('Voted ' + result);
-        });
+          growl.success($scope.beer.name + ' given ' + voteCount + ' votes.');
+          $location.path('/');
+        }).catch(globalErrorHandler);
     };
     this.submit = function (e) {
       e.preventDefault();

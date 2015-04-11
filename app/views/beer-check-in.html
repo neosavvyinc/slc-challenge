@@ -6,30 +6,28 @@
         ng-if="beerCheckInCtrl.checkInExists()">You drank at {{checkIn.time | momentFormat : 'h:mmA'}}, Gave
       {{checkIn.rating}} POINTS</h2>
 
-    <form class="form row margin-bottom-15-px"
-          ng-submit="beerCheckInCtrl.submit($event)"
-          ng-if="!beerCheckInCtrl.checkInExists()">
+    <form class="form row margin-bottom-15-px">
       <div class="col-xs-12">
         <div class="slide"
              ng-show="beerCheckInCtrl.localState.checkInFields">
           <div class="form-group">
-            <points-remaining></points-remaining>
+            <points-remaining beer-name="{{beer.name}}" points-given="{{vote.votes}}"></points-remaining>
           </div>
           <div class="form-group">
             <div class="row">
               <div class="col-xs-4">
                 <button class="btn btn-primary btn-lg btn-block"
-                        ng-click="beerCheckInCtrl.vote(1)">1
+                        ng-click="beerCheckInCtrl.vote($event, 1)">1
                 </button>
               </div>
               <div class="col-xs-4">
                 <button class="btn btn-primary btn-lg btn-block"
-                        ng-click="beerCheckInCtrl.vote(2)">2
+                        ng-click="beerCheckInCtrl.vote($event, 2)">2
                 </button>
               </div>
               <div class="col-xs-4">
                 <button class="btn btn-success btn-lg btn-block"
-                        ng-click="beerCheckInCtrl.vote(3)">3
+                        ng-click="beerCheckInCtrl.vote($event, 3)">3
                 </button>
               </div>
             </div>

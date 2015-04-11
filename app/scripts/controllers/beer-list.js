@@ -11,6 +11,7 @@ angular.module('slcChallengeApp')
   .controller('BeerListCtrl', function ($scope, $location, $parse, readOnly, memoize) {
     readOnly.beers().$bindTo($scope, 'beers');
     readOnly.checkIns().$bindTo($scope, 'checkIns');
+    readOnly.allVotes().$bindTo($scope, 'allVotes');
 
     this.localState = {
       searchTerm: $parse('searchTerm')($location.search())
@@ -66,5 +67,13 @@ angular.module('slcChallengeApp')
     this.beerCheckedIn = memoize(function (id, checkIns) {
       return $scope.checkIns && $scope.checkIns[id];
     });
+
+    this.votes = function (id) {
+      var votes = $scope.allVotes ? _.result($scope.allVotes[id], 'votes') : null;
+      if (votes) {
+        votes += parseInt(votes) === 1 ? ' VOTE' : ' VOTES';
+      }
+      return votes;
+    };
 
   });
