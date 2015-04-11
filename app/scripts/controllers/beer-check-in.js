@@ -32,6 +32,11 @@ angular.module('slcChallengeApp')
     this.getSearchTerm = function () {
         return $location.search().searchTerm ? '?searchTerm=' + $location.search().searchTerm : '';
     };
+    this.vote = function (voteCount) {
+        updateOnly.vote($scope.beer, voteCount).then(function (result) {
+          console.log('Voted ' + result);
+        });
+    };
     this.submit = function (e) {
       e.preventDefault();
       updateOnly.checkIn($scope.beer, _.pick(this.localState, ['bar', 'bartender', 'rating'])).then(function () {
