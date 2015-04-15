@@ -33,6 +33,9 @@ angular.module('slcChallengeApp')
     this.getSearchTerm = function () {
         return $location.search().searchTerm ? '?searchTerm=' + $location.search().searchTerm : '';
     };
+    this.buttonClass = function (votes, number) {
+      return parseInt(votes) === number ? 'btn-success' : 'btn-primary';
+    };
     this.vote = function (e, voteCount) {
         e.preventDefault();
         updateOnly.vote($scope.beer, voteCount).then(function (result) {

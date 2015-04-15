@@ -1,15 +1,12 @@
 <div class="beer-list row">
   <div class="col-xs-12">
-    <div class="form-group">
-      <input type="text" class="form-control input-lg" ng-model="beerListCtrl.localState.searchTerm"
-             ng-model-options="{debounce: 100}"
-             placeholder="Search..."/>
-    </div>
+    <p class="text-center">Welcome to the pride of Brooklyn. You have three votes to cast for your favorite beers. The beer with the most votes will win the <b>People's Champion Award</b>. Enjoy!</p>
     <table class="table">
       <tbody>
         <tr ng-repeat="b in beerListCtrl.searchFiltered(beers, beerListCtrl.localState.searchTerm)"
             ng-click="beerListCtrl.goToBeer(b.id)"
             ng-class="beerListCtrl.votes(b.id) ? 'success' : ''">
+          <td>{{$index + 1}}</td>
           <td>{{b.name}}</td>
           <td>{{b.brewery}}</td>
           <td>
