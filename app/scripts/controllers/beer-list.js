@@ -31,12 +31,16 @@ angular.module('slcChallengeApp')
     //Controller Methods
     function sortObject(obj) {
       if (obj) {
+        var index = 1;
         return _(obj).map(function (beer, id) {
           if (_.isObject(beer)) {
             beer.id = id;
           }
           return beer;
-        }).compact().filter(_.isObject).sortBy('name').valueOf();
+        }).compact().filter(_.isObject).sortBy('name').map(function (beer) {
+          beer.index = index++;
+          return beer;
+        }).valueOf();
       }
       return obj;
     }

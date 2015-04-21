@@ -2,11 +2,40 @@
   <div class="col-xs-12">
     <h1 class="text-center text-uppercase">{{beer.name}}</h1>
 
-    <h2 class="bg-success text-center text-uppercase"
-        ng-if="beerCheckInCtrl.checkInExists()">You drank at {{checkIn.time | momentFormat : 'h:mmA'}}, Gave
-      {{checkIn.rating}} POINTS</h2>
+    <h3>#{{beer.index}}</h3>
 
-    <form class="form row margin-bottom-15-px">
+    <div class="row margin-bottom-30-px">
+      <div class="col-xs-12">
+        <label>Brewed by {{beer.brewer.name}}</label>
+      </div>
+      <div class="col-xs-12">
+        <label>At {{beer.brewery.name}}, {{beer.brewery.location}}</label>
+      </div>
+    </div>
+
+    <div class="row margin-bottom-30-px">
+      <div class="col-xs-12">
+        <label>Beer Name: <b>{{beer.name}}</b></label>
+      </div>
+      <div class="col-xs-12">
+        <label>Beer Style: <b>{{beer.style}}</b></label>
+      </div>
+      <div class="col-xs-12">
+        <label>ABV: <b>{{beer.abv}}</b></label>
+      </div>
+    </div>
+
+    <div class="row margin-bottom-30-px">
+      <div class="col-xs-12"
+           ng-class="beer.image ? 'col-md-6' : ''">
+        <div ng-bind-html="beer.description"></div>
+      </div>
+    </div>
+
+    <form class="form row margin-bottom-30-px">
+      <div class="col-xs-12">
+        <h4 class="text-center">Vote for this beer!</h4>
+      </div>
       <div class="col-xs-12">
         <div class="slide"
              ng-show="beerCheckInCtrl.localState.checkInFields">
@@ -36,26 +65,10 @@
       </div>
     </form>
 
-    <div class="row margin-bottom-15-px">
-      <div class="col-md-6 col-xs-12 margin-bottom-30-px"
-           ng-show="beer.image">
-        <img src="{{beer.image}}"/>
-      </div>
-      <div class="col-xs-12 margin-bottom-30-px"
-           ng-class="beer.image ? 'col-md-6' : ''">
-        <div ng-bind-html="beer.description"></div>
-      </div>
-    </div>
-
     <div class="row margin-bottom-10-px">
-      <div class="col-xs-6">
-        <a class="btn btn-lg btn-success btn-block"
-           href="#/beers{{beerCheckInCtrl.getSearchTerm()}}">Back to List</a>
-      </div>
-      <div class="col-xs-6">
-        <a class="btn btn-primary btn-lg btn-block text-uppercase"
-           href="{{beer.url}}"
-           target="_blank">Visit Website</a>
+      <div class="col-xs-12">
+        <a class="btn btn-lg btn-primary btn-block"
+           href="#/beers{{beerCheckInCtrl.getSearchTerm()}}">Return to Competitor Listing</a>
       </div>
     </div>
   </div>

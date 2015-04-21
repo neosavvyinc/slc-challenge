@@ -6,7 +6,7 @@
         <tr ng-repeat="b in beerListCtrl.searchFiltered(beers, beerListCtrl.localState.searchTerm)"
             ng-click="beerListCtrl.goToBeer(b.id)"
             ng-class="beerListCtrl.votes(b.id) ? 'success' : ''">
-          <td>{{$index + 1}}</td>
+          <td>{{b.index}}</td>
           <td>{{b.name}}</td>
           <td>{{b.brewery}}</td>
           <td>
